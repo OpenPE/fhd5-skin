@@ -143,8 +143,8 @@ BH178 Default HD - Copyright (C) 2012 GPL-III by BlackHole
   <screen name="InfoBar" flags="wfNoBorder" position="0,480" size="1280,720" title="PE InfoBar" backgroundColor="transparent">
     <ePixmap position="0,0" zPosition="1" size="1280,240" pixmap="FHD5-Eminem/infobar_light-fs8.png" />
     <ePixmap position="338,142" zPosition="2" size="620,14" pixmap="FHD5-Eminem/po_bar.png" alphatest="blend" transparent="1" />
-    <eLabel text="PE Date:" zPosition="8" position="940,186" size="80,24" halign="right" font="Regular;20" foregroundColor="grey" transparent="1" backgroundColor="transpBlack" />
-    <eLabel text="PE Rsv:" zPosition="4" position="750,186" size="70,24" halign="right" font="Regular;20" foregroundColor="grey" transparent="1" backgroundColor="transpBlack" />
+    <eLabel text="Date:" zPosition="8" position="940,186" size="80,24" halign="right" font="Regular;20" foregroundColor="grey" transparent="1" backgroundColor="transpBlack" />
+    <eLabel text="Rsv:" zPosition="4" position="750,186" size="70,24" halign="right" font="Regular;20" foregroundColor="grey" transparent="1" backgroundColor="transpBlack" />
     <widget source="global.CurrentTime" render="gRWatch" position="1144,115" size="70,70" zPosition="4" foregroundColor="red" alphatest="blend">
       <convert type="gCWatch">sec,1</convert>
     </widget>
@@ -163,12 +163,12 @@ BH178 Default HD - Copyright (C) 2012 GPL-III by BlackHole
     <widget source="session.CurrentService" render="Label" zPosition="4" position="813,188" size="55,22" halign="right" font="Regular;18" foregroundColor="un999999" transparent="1" backgroundColor="un999999">
       <convert type="ServiceInfo">VideoWidth</convert>
     </widget>
-    <eLabel text="PE x" zPosition="4" position="874,188" size="15,22" halign="left" font="Regular;18" foregroundColor="un999999" transparent="1" backgroundColor="un999999" />
+    <eLabel text="x" zPosition="4" position="874,188" size="15,22" halign="left" font="Regular;18" foregroundColor="un999999" transparent="1" backgroundColor="un999999" />
     <widget source="session.CurrentService" render="Label" zPosition="4" position="890,188" size="55,22" halign="left" font="Regular;18" foregroundColor="un999999" transparent="1" backgroundColor="un999999">
       <convert type="ServiceInfo">VideoHeight</convert>
     </widget>
     <widget source="session.CurrentService" render="ChannelNumber" position="330,76" size="100,32" zPosition="2" font="Regular;28" halign="left" noWrap="1" transparent="1" foregroundColor="un999999" backgroundColor="background" />
-    <eLabel text="PE Ch." zPosition="5" position="280,80" size="40,24" halign="center" font="Regular;20" foregroundColor="grey" transparent="1" backgroundColor="transpBlack" />
+    <eLabel text="Ch" zPosition="5" position="280,80" size="40,24" halign="center" font="Regular;20" foregroundColor="grey" transparent="1" backgroundColor="transpBlack" />
     <!--widget name="Universe" position="920,86" size="300,28" halign="center" zPosition="5" font="OLED;18" foregroundColor="#f23d21" backgroundColor="background" transparent="1" /-->
     <widget source="session.CurrentService" render="Label" position="375,76" size="530,32" zPosition="2" font="Regular;28" halign="center" noWrap="1" transparent="1" foregroundColor="un999999" backgroundColor="background">
       <convert type="ServiceName">Name</convert>
@@ -264,12 +264,12 @@ BH178 Default HD - Copyright (C) 2012 GPL-III by BlackHole
   <widget source="session.CurrentService" render="Label" zPosition="4" position="813,668" size="55,22" halign="right" font="Regular;18" foregroundColor="un999999" transparent="1" backgroundColor="un999999">
     <convert type="ServiceInfo">VideoWidth</convert>
   </widget>
-  <eLabel text="PE x" zPosition="4" position="874,668" size="15,22" halign="left" font="Regular;18" foregroundColor="un999999" transparent="1" backgroundColor="un999999" />
+  <eLabel text="x" zPosition="4" position="874,668" size="15,22" halign="left" font="Regular;18" foregroundColor="un999999" transparent="1" backgroundColor="un999999" />
   <widget source="session.CurrentService" render="Label" zPosition="4" position="890,668" size="55,22" halign="left" font="Regular;18" foregroundColor="un999999" transparent="1" backgroundColor="un999999">
     <convert type="ServiceInfo">VideoHeight</convert>
   </widget>
   <widget source="session.CurrentService" render="ChannelNumber" position="330,556" size="100,32" zPosition="2" font="Regular;28" halign="left" noWrap="1" transparent="1" foregroundColor="un999999" backgroundColor="background" />
-  <eLabel text="PE Ch." zPosition="5" position="200,560" size="40,24" halign="center" font="Regular;20" foregroundColor="grey" transparent="1" backgroundColor="transpBlack" />
+  <eLabel text="Ch" zPosition="5" position="200,560" size="40,24" halign="center" font="Regular;20" foregroundColor="grey" transparent="1" backgroundColor="transpBlack" />
   <widget source="session.CurrentService" render="Label" position="255,556" size="530,32" zPosition="2" font="Regular;28" halign="center" noWrap="1" transparent="1" foregroundColor="un999999" backgroundColor="background">
     <convert type="ServiceName">Name</convert>
   </widget>
@@ -341,62 +341,62 @@ BH178 Default HD - Copyright (C) 2012 GPL-III by BlackHole
     <convert type="ServiceInfo">Framerate</convert>
   </widget>
   <!-- AB103 Turner Status (Nim) A-B-C-D -->
-  <eLabel text="PE A" position="395,668" zPosition="1" size="20,22" font="Regular;20" halign="center" foregroundColor="grey" backgroundColor="background" transparent="1" />
-  <eLabel text="PE B" position="417,668" zPosition="1" size="20,22" font="Regular;20" halign="center" foregroundColor="grey" backgroundColor="background" transparent="1" />
-  <eLabel text="PE C" position="439,668" zPosition="1" size="20,22" font="Regular;20" halign="center" foregroundColor="grey" backgroundColor="background" transparent="1" />
-  <eLabel text="PE D" position="461,668" zPosition="1" size="20,22" font="Regular;20" halign="center" foregroundColor="grey" backgroundColor="background" transparent="1" />
-  <widget source="session.TunerInfo" render="FixedLabel" text="PE A" position="395,668" zPosition="2" size="20,22" font="Regular;20" halign="center" foregroundColor="unf23d21" backgroundColor="un333333" transparent="1">
+  <eLabel text="A" position="395,668" zPosition="1" size="20,22" font="Regular;20" halign="center" foregroundColor="grey" backgroundColor="background" transparent="1" />
+  <eLabel text="B" position="417,668" zPosition="1" size="20,22" font="Regular;20" halign="center" foregroundColor="grey" backgroundColor="background" transparent="1" />
+  <eLabel text="C" position="439,668" zPosition="1" size="20,22" font="Regular;20" halign="center" foregroundColor="grey" backgroundColor="background" transparent="1" />
+  <eLabel text="D" position="461,668" zPosition="1" size="20,22" font="Regular;20" halign="center" foregroundColor="grey" backgroundColor="background" transparent="1" />
+  <widget source="session.TunerInfo" render="FixedLabel" text="A" position="395,668" zPosition="2" size="20,22" font="Regular;20" halign="center" foregroundColor="unf23d21" backgroundColor="un333333" transparent="1">
     <convert type="TunerInfo">TunerUseMask</convert>
     <convert type="ValueBitTest">1</convert>
     <convert type="ConditionalShowHide" />
   </widget>
-  <widget source="session.TunerInfo" render="FixedLabel" text="PE B" position="417,668" zPosition="2" size="20,22" font="Regular;20" halign="center" foregroundColor="unf23d21" backgroundColor="un333333" transparent="1">
+  <widget source="session.TunerInfo" render="FixedLabel" text="B" position="417,668" zPosition="2" size="20,22" font="Regular;20" halign="center" foregroundColor="unf23d21" backgroundColor="un333333" transparent="1">
     <convert type="TunerInfo">TunerUseMask</convert>
     <convert type="ValueBitTest">2</convert>
     <convert type="ConditionalShowHide" />
   </widget>
-  <widget source="session.TunerInfo" render="FixedLabel" text="PE C" position="439,668" zPosition="2" size="20,22" font="Regular;20" halign="center" foregroundColor="unf23d21" backgroundColor="un333333" transparent="1">
+  <widget source="session.TunerInfo" render="FixedLabel" text="C" position="439,668" zPosition="2" size="20,22" font="Regular;20" halign="center" foregroundColor="unf23d21" backgroundColor="un333333" transparent="1">
     <convert type="TunerInfo">TunerUseMask</convert>
     <convert type="ValueBitTest">4</convert>
     <convert type="ConditionalShowHide" />
   </widget>
-  <widget source="session.TunerInfo" render="FixedLabel" text="PE D" position="461,668" zPosition="2" size="20,22" font="Regular;20" halign="center" foregroundColor="unf23d21" backgroundColor="un333333" transparent="1">
+  <widget source="session.TunerInfo" render="FixedLabel" text="D" position="461,668" zPosition="2" size="20,22" font="Regular;20" halign="center" foregroundColor="unf23d21" backgroundColor="un333333" transparent="1">
     <convert type="TunerInfo">TunerUseMask</convert>
     <convert type="ValueBitTest">8</convert>
     <convert type="ConditionalShowHide" />
   </widget>
-  <widget source="session.FrontendInfo" render="FixedLabel" text="PE A" position="395,668" zPosition="3" size="20,22" font="Regular;20" halign="center" foregroundColor="white" backgroundColor="background" transparent="1">
+  <widget source="session.FrontendInfo" render="FixedLabel" text="A" position="395,668" zPosition="3" size="20,22" font="Regular;20" halign="center" foregroundColor="white" backgroundColor="background" transparent="1">
     <convert type="FrontendInfo">NUMBER</convert>
     <convert type="ValueRange">0,0</convert>
     <convert type="ConditionalShowHide" />
   </widget>
-  <widget source="session.FrontendInfo" render="FixedLabel" text="PE B" position="417,668" zPosition="3" size="20,22" font="Regular;20" halign="center" foregroundColor="white" backgroundColor="background" transparent="1">
+  <widget source="session.FrontendInfo" render="FixedLabel" text="B" position="417,668" zPosition="3" size="20,22" font="Regular;20" halign="center" foregroundColor="white" backgroundColor="background" transparent="1">
     <convert type="FrontendInfo">NUMBER</convert>
     <convert type="ValueRange">1,1</convert>
     <convert type="ConditionalShowHide" />
   </widget>
-  <widget source="session.FrontendInfo" render="FixedLabel" text="PE C" position="439,668" zPosition="3" size="20,22" font="Regular;20" halign="center" foregroundColor="white" backgroundColor="background" transparent="1">
+  <widget source="session.FrontendInfo" render="FixedLabel" text="C" position="439,668" zPosition="3" size="20,22" font="Regular;20" halign="center" foregroundColor="white" backgroundColor="background" transparent="1">
     <convert type="FrontendInfo">NUMBER</convert>
     <convert type="ValueRange">2,2</convert>
     <convert type="ConditionalShowHide" />
   </widget>
-  <widget source="session.FrontendInfo" render="FixedLabel" text="PE D" position="461,668" zPosition="3" size="20,22" font="Regular;20" halign="center" foregroundColor="white" backgroundColor="background" transparent="1">
+  <widget source="session.FrontendInfo" render="FixedLabel" text="D" position="461,668" zPosition="3" size="20,22" font="Regular;20" halign="center" foregroundColor="white" backgroundColor="background" transparent="1">
     <convert type="FrontendInfo">NUMBER</convert>
     <convert type="ValueRange">3,3</convert>
     <convert type="ConditionalShowHide" />
   </widget>
   <!-- AB 104 Turner DVB-S/C/T -->
-  <widget source="session.FrontendInfo" render="FixedLabel" text="PE DVB-S" position="1150,86" zPosition="3" size="80, 24" font="Regular;20" halign="left" foregroundColor="un999999" backgroundColor="transpBlack" transparent="1">
+  <widget source="session.FrontendInfo" render="FixedLabel" text="DVB-S" position="1150,86" zPosition="3" size="80, 24" font="Regular;20" halign="left" foregroundColor="un999999" backgroundColor="transpBlack" transparent="1">
     <convert type="FrontendInfo">TYPE</convert>
     <convert type="ValueRange">0,0</convert>
     <convert type="ConditionalShowHide" />
   </widget>
-  <widget source="session.FrontendInfo" render="FixedLabel" text="PE DVB-C" position="1150,86" zPosition="3" size="80, 24" font="Regular; 20" halign="left" foregroundColor="un999999" backgroundColor="transpBlack" transparent="1">
+  <widget source="session.FrontendInfo" render="FixedLabel" text="DVB-C" position="1150,86" zPosition="3" size="80, 24" font="Regular; 20" halign="left" foregroundColor="un999999" backgroundColor="transpBlack" transparent="1">
     <convert type="FrontendInfo">TYPE</convert>
     <convert type="ValueRange">1,1</convert>
     <convert type="ConditionalShowHide" />
   </widget>
-  <widget source="session.FrontendInfo" render="FixedLabel" text="PE DVB-T" position="1150,86" zPosition="3" size="80, 24" font="Regular; 20" halign="left" foregroundColor="un999999" backgroundColor="transpBlack" transparent="1">
+  <widget source="session.FrontendInfo" render="FixedLabel" text="DVB-T" position="1150,86" zPosition="3" size="80, 24" font="Regular; 20" halign="left" foregroundColor="un999999" backgroundColor="transpBlack" transparent="1">
     <convert type="FrontendInfo">TYPE</convert>
     <convert type="ValueRange">2,2</convert>
     <convert type="ConditionalShowHide" />
@@ -418,25 +418,25 @@ BH178 Default HD - Copyright (C) 2012 GPL-III by BlackHole
   <widget source="session.CurrentService" render="Label" position="70,55" size="488,26" zPosition="3" font="Regular; 18" halign="left" foregroundColor="un999999" backgroundColor="transpBlack" transparent="1">
     <convert type="ExtraTuner">TunerInfo</convert>
   </widget>
-  <eLabel text="PE Fps:" zPosition="4" position="964,86" size="70,24" halign="center" font="Regular;20" foregroundColor="grey" transparent="1" backgroundColor="transpBlack" />
-  <eLabel text="PE Tuner:" zPosition="5" position="1070,86" size="80,24" halign="center" font="Regular;20" foregroundColor="grey" transparent="1" backgroundColor="transpBlack" />
-  <eLabel text="PE Date:" zPosition="8" position="940,666" size="80,24" halign="right" font="Regular;20" foregroundColor="grey" transparent="1" backgroundColor="transpBlack" />
-  <eLabel text="PE Rsv:" zPosition="4" position="750,666" size="70,24" halign="right" font="Regular;20" foregroundColor="grey" transparent="1" backgroundColor="transpBlack" />
-  <eLabel text="PE Snr:" zPosition="3" position="565,55" size="70,24" halign="center" font="Regular;20" foregroundColor="grey" transparent="1" backgroundColor="transpBlack" />
+  <eLabel text="Fps:" zPosition="4" position="964,86" size="70,24" halign="center" font="Regular;20" foregroundColor="grey" transparent="1" backgroundColor="transpBlack" />
+  <eLabel text="Tuner:" zPosition="5" position="1070,86" size="80,24" halign="center" font="Regular;20" foregroundColor="grey" transparent="1" backgroundColor="transpBlack" />
+  <eLabel text="Date:" zPosition="8" position="940,666" size="80,24" halign="right" font="Regular;20" foregroundColor="grey" transparent="1" backgroundColor="transpBlack" />
+  <eLabel text="Rsv:" zPosition="4" position="750,666" size="70,24" halign="right" font="Regular;20" foregroundColor="grey" transparent="1" backgroundColor="transpBlack" />
+  <eLabel text="Snr:" zPosition="3" position="565,55" size="70,24" halign="center" font="Regular;20" foregroundColor="grey" transparent="1" backgroundColor="transpBlack" />
   <widget source="session.FrontendStatus" render="Label" position="631,55" zPosition="3" size="70,24" halign="center" font="Regular;20" foregroundColor="un999999" transparent="1" backgroundColor="transpBlack">
     <convert type="FrontendInfo">SNR</convert>
   </widget>
   <widget source="session.FrontendStatus" render="Progress" position="701,60" size="100,14" zPosition="4" pixmap="FHD5-Eminem/bar_snr.png" transparent="1">
     <convert type="FrontendInfo">SNR</convert>
   </widget>
-  <eLabel text="PE Agc:" zPosition="3" position="810,55" size="70,24" halign="center" font="Regular;20" foregroundColor="grey" transparent="1" backgroundColor="transpBlack" />
+  <eLabel text="Agc:" zPosition="3" position="810,55" size="70,24" halign="center" font="Regular;20" foregroundColor="grey" transparent="1" backgroundColor="transpBlack" />
   <widget source="session.FrontendStatus" render="Label" position="876,55" zPosition="3" size="70,24" halign="center" font="Regular;20" foregroundColor="un999999" transparent="1" backgroundColor="transpBlack">
     <convert type="FrontendInfo">AGC</convert>
   </widget>
   <widget source="session.FrontendStatus" render="Progress" position="947,60" size="100,14" zPosition="3" pixmap="FHD5-Eminem/bar_snr.png" transparent="1">
     <convert type="FrontendInfo">AGC</convert>
   </widget>
-  <eLabel text="PE Ber:" zPosition="3" position="1055,55" size="70,24" font="Regular;20" foregroundColor="grey" backgroundColor="transpBlack" transparent="1" />
+  <eLabel text="Ber:" zPosition="3" position="1055,55" size="70,24" font="Regular;20" foregroundColor="grey" backgroundColor="transpBlack" transparent="1" />
   <widget source="session.FrontendStatus" render="Label" position="1117,55" zPosition="3" size="70,24" font="Regular;20" foregroundColor="un999999" backgroundColor="transpBlack" transparent="1">
     <convert type="FrontendInfo">BER</convert>
   </widget>
@@ -453,7 +453,7 @@ BH178 Default HD - Copyright (C) 2012 GPL-III by BlackHole
   </widget>
 </screen>
   <!-- AB102 Black Hole Extra Infobar  -->
-  <screen name="Nab_ExtraInfobar" flags="wfNoBorder" position="0,0" size="1280,720" title="PE Black Hole" backgroundColor="transparent">
+  <screen name="Nab_ExtraInfobar" flags="wfNoBorder" position="0,0" size="1280,720" title="PE ExtraInfoBar" backgroundColor="transparent">
     <ePixmap position="0,0" zPosition="1" size="1280,150" pixmap="FHD5-Eminem/infobar2-fs8.png" />
     <ePixmap position="0,480" zPosition="1" size="1280,240" pixmap="FHD5-Eminem/infobar_light-fs8.png" />
     <ePixmap position="338,622" zPosition="2" size="620,14" pixmap="FHD5-Eminem/po_bar.png" alphatest="on" />
@@ -477,12 +477,12 @@ BH178 Default HD - Copyright (C) 2012 GPL-III by BlackHole
     <widget source="session.CurrentService" render="Label" zPosition="4" position="813,668" size="55,22" halign="right" font="Regular;18" foregroundColor="un999999" transparent="1" backgroundColor="un999999">
       <convert type="ServiceInfo">VideoWidth</convert>
     </widget>
-    <eLabel text="PE x" zPosition="4" position="874,668" size="15,22" halign="left" font="Regular;18" foregroundColor="un999999" transparent="1" backgroundColor="un999999" />
+    <eLabel text="x" zPosition="4" position="874,668" size="15,22" halign="left" font="Regular;18" foregroundColor="un999999" transparent="1" backgroundColor="un999999" />
     <widget source="session.CurrentService" render="Label" zPosition="4" position="890,668" size="55,22" halign="left" font="Regular;18" foregroundColor="un999999" transparent="1" backgroundColor="un999999">
       <convert type="ServiceInfo">VideoHeight</convert>
     </widget>
     <widget source="session.CurrentService" render="ChannelNumber" position="330,556" size="100,32" zPosition="2" font="Regular;28" halign="left" noWrap="1" transparent="1" foregroundColor="un999999" backgroundColor="background" />
-    <eLabel text="PE Ch." zPosition="5" position="280,560" size="40,24" halign="center" font="Regular;20" foregroundColor="grey" transparent="1" backgroundColor="transpBlack" />
+    <eLabel text="Ch" zPosition="5" position="280,560" size="40,24" halign="center" font="Regular;20" foregroundColor="grey" transparent="1" backgroundColor="transpBlack" />
     <!--widget name="Universe" position="920,566" size="300,28" halign="center" zPosition="5" font="OLED;18" foregroundColor="#f23d21"  backgroundColor="background" transparent="1" /-->
     <widget source="session.CurrentService" render="Label" position="375,556" size="530,32" zPosition="2" font="Regular;28" halign="center" noWrap="1" transparent="1" foregroundColor="un999999" backgroundColor="background">
       <convert type="ServiceName">Name</convert>
@@ -555,62 +555,62 @@ BH178 Default HD - Copyright (C) 2012 GPL-III by BlackHole
       <convert type="ServiceInfo">Framerate</convert>
     </widget>
     <!-- AB103 Turner Status (Nim) A-B-C-D -->
-    <eLabel text="PE A" position="395,668" zPosition="1" size="20,22" font="Regular;20" halign="center" foregroundColor="grey" backgroundColor="background" transparent="1" />
-    <eLabel text="PE B" position="417,668" zPosition="1" size="20,22" font="Regular;20" halign="center" foregroundColor="grey" backgroundColor="background" transparent="1" />
-    <eLabel text="PE C" position="439,668" zPosition="1" size="20,22" font="Regular;20" halign="center" foregroundColor="grey" backgroundColor="background" transparent="1" />
-    <eLabel text="PE D" position="461,668" zPosition="1" size="20,22" font="Regular;20" halign="center" foregroundColor="grey" backgroundColor="background" transparent="1" />
-    <widget source="session.TunerInfo" render="FixedLabel" text="PE A" position="395,668" zPosition="2" size="20,22" font="Regular;20" halign="center" foregroundColor="unf23d21" backgroundColor="un333333" transparent="1">
+    <eLabel text="A" position="395,668" zPosition="1" size="20,22" font="Regular;20" halign="center" foregroundColor="grey" backgroundColor="background" transparent="1" />
+    <eLabel text="B" position="417,668" zPosition="1" size="20,22" font="Regular;20" halign="center" foregroundColor="grey" backgroundColor="background" transparent="1" />
+    <eLabel text="C" position="439,668" zPosition="1" size="20,22" font="Regular;20" halign="center" foregroundColor="grey" backgroundColor="background" transparent="1" />
+    <eLabel text="D" position="461,668" zPosition="1" size="20,22" font="Regular;20" halign="center" foregroundColor="grey" backgroundColor="background" transparent="1" />
+    <widget source="session.TunerInfo" render="FixedLabel" text="A" position="395,668" zPosition="2" size="20,22" font="Regular;20" halign="center" foregroundColor="unf23d21" backgroundColor="un333333" transparent="1">
       <convert type="TunerInfo">TunerUseMask</convert>
       <convert type="ValueBitTest">1</convert>
       <convert type="ConditionalShowHide" />
     </widget>
-    <widget source="session.TunerInfo" render="FixedLabel" text="PE B" position="417,668" zPosition="2" size="20,22" font="Regular;20" halign="center" foregroundColor="unf23d21" backgroundColor="un333333" transparent="1">
+    <widget source="session.TunerInfo" render="FixedLabel" text="B" position="417,668" zPosition="2" size="20,22" font="Regular;20" halign="center" foregroundColor="unf23d21" backgroundColor="un333333" transparent="1">
       <convert type="TunerInfo">TunerUseMask</convert>
       <convert type="ValueBitTest">2</convert>
       <convert type="ConditionalShowHide" />
     </widget>
-    <widget source="session.TunerInfo" render="FixedLabel" text="PE C" position="439,668" zPosition="2" size="20,22" font="Regular;20" halign="center" foregroundColor="unf23d21" backgroundColor="un333333" transparent="1">
+    <widget source="session.TunerInfo" render="FixedLabel" text="C" position="439,668" zPosition="2" size="20,22" font="Regular;20" halign="center" foregroundColor="unf23d21" backgroundColor="un333333" transparent="1">
       <convert type="TunerInfo">TunerUseMask</convert>
       <convert type="ValueBitTest">4</convert>
       <convert type="ConditionalShowHide" />
     </widget>
-    <widget source="session.TunerInfo" render="FixedLabel" text="PE D" position="461,668" zPosition="2" size="20,22" font="Regular;20" halign="center" foregroundColor="unf23d21" backgroundColor="un333333" transparent="1">
+    <widget source="session.TunerInfo" render="FixedLabel" text="D" position="461,668" zPosition="2" size="20,22" font="Regular;20" halign="center" foregroundColor="unf23d21" backgroundColor="un333333" transparent="1">
       <convert type="TunerInfo">TunerUseMask</convert>
       <convert type="ValueBitTest">8</convert>
       <convert type="ConditionalShowHide" />
     </widget>
-    <widget source="session.FrontendInfo" render="FixedLabel" text="PE A" position="395,668" zPosition="3" size="20,22" font="Regular;20" halign="center" foregroundColor="white" backgroundColor="background" transparent="1">
+    <widget source="session.FrontendInfo" render="FixedLabel" text="A" position="395,668" zPosition="3" size="20,22" font="Regular;20" halign="center" foregroundColor="white" backgroundColor="background" transparent="1">
       <convert type="FrontendInfo">NUMBER</convert>
       <convert type="ValueRange">0,0</convert>
       <convert type="ConditionalShowHide" />
     </widget>
-    <widget source="session.FrontendInfo" render="FixedLabel" text="PE B" position="417,668" zPosition="3" size="20,22" font="Regular;20" halign="center" foregroundColor="white" backgroundColor="background" transparent="1">
+    <widget source="session.FrontendInfo" render="FixedLabel" text="B" position="417,668" zPosition="3" size="20,22" font="Regular;20" halign="center" foregroundColor="white" backgroundColor="background" transparent="1">
       <convert type="FrontendInfo">NUMBER</convert>
       <convert type="ValueRange">1,1</convert>
       <convert type="ConditionalShowHide" />
     </widget>
-    <widget source="session.FrontendInfo" render="FixedLabel" text="PE C" position="439,668" zPosition="3" size="20,22" font="Regular;20" halign="center" foregroundColor="white" backgroundColor="background" transparent="1">
+    <widget source="session.FrontendInfo" render="FixedLabel" text="C" position="439,668" zPosition="3" size="20,22" font="Regular;20" halign="center" foregroundColor="white" backgroundColor="background" transparent="1">
       <convert type="FrontendInfo">NUMBER</convert>
       <convert type="ValueRange">2,2</convert>
       <convert type="ConditionalShowHide" />
     </widget>
-    <widget source="session.FrontendInfo" render="FixedLabel" text="PE D" position="461,668" zPosition="3" size="20,22" font="Regular;20" halign="center" foregroundColor="white" backgroundColor="background" transparent="1">
+    <widget source="session.FrontendInfo" render="FixedLabel" text="D" position="461,668" zPosition="3" size="20,22" font="Regular;20" halign="center" foregroundColor="white" backgroundColor="background" transparent="1">
       <convert type="FrontendInfo">NUMBER</convert>
       <convert type="ValueRange">3,3</convert>
       <convert type="ConditionalShowHide" />
     </widget>
     <!-- AB 104 Turner DVB-S/C/T -->
-    <widget source="session.FrontendInfo" render="FixedLabel" text="PE DVB-S" position="1150,86" zPosition="3" size="80, 24" font="Regular;20" halign="left" foregroundColor="un999999" backgroundColor="transpBlack" transparent="1">
+    <widget source="session.FrontendInfo" render="FixedLabel" text="DVB-S" position="1150,86" zPosition="3" size="80, 24" font="Regular;20" halign="left" foregroundColor="un999999" backgroundColor="transpBlack" transparent="1">
       <convert type="FrontendInfo">TYPE</convert>
       <convert type="ValueRange">0,0</convert>
       <convert type="ConditionalShowHide" />
     </widget>
-    <widget source="session.FrontendInfo" render="FixedLabel" text="PE DVB-C" position="1150,86" zPosition="3" size="80, 24" font="Regular; 20" halign="left" foregroundColor="un999999" backgroundColor="transpBlack" transparent="1">
+    <widget source="session.FrontendInfo" render="FixedLabel" text="DVB-C" position="1150,86" zPosition="3" size="80, 24" font="Regular; 20" halign="left" foregroundColor="un999999" backgroundColor="transpBlack" transparent="1">
       <convert type="FrontendInfo">TYPE</convert>
       <convert type="ValueRange">1,1</convert>
       <convert type="ConditionalShowHide" />
     </widget>
-    <widget source="session.FrontendInfo" render="FixedLabel" text="PE DVB-T" position="1150,86" zPosition="3" size="80, 24" font="Regular; 20" halign="left" foregroundColor="un999999" backgroundColor="transpBlack" transparent="1">
+    <widget source="session.FrontendInfo" render="FixedLabel" text="DVB-T" position="1150,86" zPosition="3" size="80, 24" font="Regular; 20" halign="left" foregroundColor="un999999" backgroundColor="transpBlack" transparent="1">
       <convert type="FrontendInfo">TYPE</convert>
       <convert type="ValueRange">2,2</convert>
       <convert type="ConditionalShowHide" />
@@ -622,56 +622,56 @@ BH178 Default HD - Copyright (C) 2012 GPL-III by BlackHole
     <widget name="netcard_info" position="70,32" size="590,20" halign="left" font="Display;15" zPosition="4" foregroundColor="un999999" transparent="1" backgroundColor="transpBlack" />
     <widget name="orbital_pos" position="1010,55" size="200,26" halign="right" font="Regular;20" zPosition="3" foregroundColor="un999999" transparent="1" backgroundColor="transpBlack" />
     <widget name="nfreq_info" position="70,55" size="320,26" halign="left" font="Regular;20" zPosition="3" transparent="1" foregroundColor="un999999" backgroundColor="transpBlack" />
-    <eLabel text="PE Fps:" zPosition="4" position="882,86" size="70,24" halign="center" font="Regular;20" foregroundColor="grey" transparent="1" backgroundColor="transpBlack" />
-    <eLabel text="PE Tuner:" zPosition="5" position="1070,86" size="80,24" halign="center" font="Regular;20" foregroundColor="grey" transparent="1" backgroundColor="transpBlack" />
-    <eLabel text="PE Date:" zPosition="8" position="940,666" size="80,24" halign="right" font="Regular;20" foregroundColor="grey" transparent="1" backgroundColor="transpBlack" />
-    <eLabel text="PE Rsv:" zPosition="4" position="750,666" size="70,24" halign="right" font="Regular;20" foregroundColor="grey" transparent="1" backgroundColor="transpBlack" />
-    <eLabel text="PE Snr:" zPosition="3" position="410,55" size="70,24" halign="center" font="Regular;20" foregroundColor="grey" transparent="1" backgroundColor="transpBlack" />
+    <eLabel text="Fps:" zPosition="4" position="882,86" size="70,24" halign="center" font="Regular;20" foregroundColor="grey" transparent="1" backgroundColor="transpBlack" />
+    <eLabel text="Tuner:" zPosition="5" position="1070,86" size="80,24" halign="center" font="Regular;20" foregroundColor="grey" transparent="1" backgroundColor="transpBlack" />
+    <eLabel text="Date:" zPosition="8" position="940,666" size="80,24" halign="right" font="Regular;20" foregroundColor="grey" transparent="1" backgroundColor="transpBlack" />
+    <eLabel text="Rsv:" zPosition="4" position="750,666" size="70,24" halign="right" font="Regular;20" foregroundColor="grey" transparent="1" backgroundColor="transpBlack" />
+    <eLabel text="Snr:" zPosition="3" position="410,55" size="70,24" halign="center" font="Regular;20" foregroundColor="grey" transparent="1" backgroundColor="transpBlack" />
     <widget source="session.FrontendStatus" render="Label" position="462,55" zPosition="3" size="70,24" halign="center" font="Regular;20" foregroundColor="un999999" transparent="1" backgroundColor="transpBlack">
       <convert type="FrontendInfo">SNR</convert>
     </widget>
     <widget source="session.FrontendStatus" render="Progress" position="535,60" size="100,14" zPosition="4" pixmap="FHD5-Eminem/bar_snr.png" transparent="1">
       <convert type="FrontendInfo">SNR</convert>
     </widget>
-    <eLabel text="PE Agc:" zPosition="3" position="650,55" size="70,24" halign="center" font="Regular;20" foregroundColor="grey" transparent="1" backgroundColor="transpBlack" />
+    <eLabel text="Agc:" zPosition="3" position="650,55" size="70,24" halign="center" font="Regular;20" foregroundColor="grey" transparent="1" backgroundColor="transpBlack" />
     <widget source="session.FrontendStatus" render="Label" position="702,55" zPosition="3" size="70,24" halign="center" font="Regular;20" foregroundColor="un999999" transparent="1" backgroundColor="transpBlack">
       <convert type="FrontendInfo">AGC</convert>
     </widget>
     <widget source="session.FrontendStatus" render="Progress" position="775,60" size="100,14" zPosition="3" pixmap="FHD5-Eminem/bar_snr.png" transparent="1">
       <convert type="FrontendInfo">AGC</convert>
     </widget>
-    <eLabel text="PE Ber:" zPosition="3" position="895,55" size="70,24" font="Regular;20" foregroundColor="grey" backgroundColor="transpBlack" transparent="1" />
+    <eLabel text="Ber:" zPosition="3" position="895,55" size="70,24" font="Regular;20" foregroundColor="grey" backgroundColor="transpBlack" transparent="1" />
     <widget source="session.FrontendStatus" render="Label" position="957,55" zPosition="3" size="70,24" font="Regular;20" foregroundColor="un999999" backgroundColor="transpBlack" transparent="1">
       <convert type="FrontendInfo">BER</convert>
     </widget>
-    <widget position="70,86" size="20,22" halign="center" text="PE B" font="Regular;20" backgroundColor="un999999" foregroundColor="un999999" name="beta_no" valign="center" zPosition="3" transparent="1" />
-    <widget position="70,86" size="20,22" halign="center" text="PE B" font="Regular;20" backgroundColor="unf23d21" foregroundColor="unf23d21" name="beta_emm" valign="center" zPosition="4" transparent="1" />
-    <widget position="70,86" size="20,22" halign="center" text="PE B" font="Regular;20" backgroundColor="background" foregroundColor="un56c856" name="beta_ecm" valign="center" zPosition="5" transparent="1" />
-    <widget position="93,86" size="20,22" halign="center" text="PE I" font="Regular;20" backgroundColor="un999999" foregroundColor="un999999" name="irdeto_no" valign="center" zPosition="3" transparent="1" />
-    <widget position="93,86" size="20,22" halign="center" text="PE I" font="Regular;20" backgroundColor="unf23d21" foregroundColor="unf23d21" name="irdeto_emm" valign="center" zPosition="4" transparent="1" />
-    <widget position="93,86" size="20,22" halign="center" text="PE I" font="Regular;20" backgroundColor="background" foregroundColor="un56c856" name="irdeto_ecm" valign="center" zPosition="5" transparent="1" />
-    <widget position="116,86" size="20,22" halign="center" text="PE S" font="Regular;20" backgroundColor="un999999" foregroundColor="un999999" name="seca_no" valign="center" zPosition="3" transparent="1" />
-    <widget position="116,86" size="20,22" halign="center" text="PE S" font="Regular;20" backgroundColor="unf23d21" foregroundColor="unf23d21" name="seca_emm" valign="center" zPosition="4" transparent="1" />
-    <widget position="116,86" size="20,22" halign="center" text="PE S" font="Regular;20" backgroundColor="background" foregroundColor="un56c856" name="seca_ecm" valign="center" zPosition="5" transparent="1" />
-    <widget position="139,86" size="20,22" halign="center" text="PE V" font="Regular;20" backgroundColor="un999999" foregroundColor="un999999" name="via_no" valign="center" zPosition="3" transparent="1" />
-    <widget position="139,86" size="20,22" halign="center" text="PE V" font="Regular;20" backgroundColor="unf23d21" foregroundColor="unf23d21" name="via_emm" valign="center" zPosition="4" transparent="1" />
-    <widget position="139,86" size="20,22" halign="center" text="PE V" font="Regular;20" backgroundColor="background" foregroundColor="un56c856" name="via_ecm" valign="center" zPosition="5" transparent="1" />
-    <widget position="162,86" size="20,22" halign="center" text="PE N" font="Regular;20" backgroundColor="un999999" foregroundColor="un999999" name="nagra_no" valign="center" zPosition="3" transparent="1" />
-    <widget position="162,86" size="20,22" halign="center" text="PE N" font="Regular;20" backgroundColor="unf23d21" foregroundColor="unf23d21" name="nagra_emm" valign="center" zPosition="4" transparent="1" />
-    <widget position="162,86" size="20,22" halign="center" text="PE N" font="Regular;20" backgroundColor="background" foregroundColor="un56c856" name="nagra_ecm" valign="center" zPosition="5" transparent="1" />
-    <widget position="185,86" size="38,22" halign="center" text="PE CW" font="Regular;20" backgroundColor="un999999" foregroundColor="un999999" name="cw_no" valign="center" zPosition="3" transparent="1" />
-    <widget position="185,86" size="38,22" halign="center" text="PE CW" font="Regular;20" backgroundColor="unf23d21" foregroundColor="unf23d21" name="cw_emm" valign="center" zPosition="4" transparent="1" />
-    <widget position="185,86" size="38,22" halign="center" text="PE CW" font="Regular;20" backgroundColor="background" foregroundColor="un56c856" name="cw_ecm" valign="center" zPosition="5" transparent="1" />
-    <widget position="226,86" size="38,22" halign="center" text="PE ND" font="Regular;20" backgroundColor="un999999" foregroundColor="un999999" name="nds_no" valign="center" zPosition="3" transparent="1" />
-    <widget position="226,86" size="38,22" halign="center" text="PE ND" font="Regular;20" backgroundColor="unf23d21" foregroundColor="unf23d21" name="nds_emm" valign="center" zPosition="4" transparent="1" />
-    <widget position="226,86" size="38,22" halign="center" text="PE ND" font="Regular;20" backgroundColor="un56c856" foregroundColor="un56c856" name="nds_ecm" valign="center" zPosition="5" transparent="1" />
-    <widget position="267,86" size="38,22" halign="center" text="PE CO" font="Regular;20" backgroundColor="un999999" foregroundColor="un999999" name="conax_no" valign="center" zPosition="3" transparent="1" />
-    <widget position="267,86" size="38,22" halign="center" text="PE CO" font="Regular;20" backgroundColor="unf23d21" foregroundColor="unf23d21" name="conax_emm" valign="center" zPosition="4" transparent="1" />
-    <widget position="267,86" size="38,22" halign="center" text="PE CO" font="Regular;20" backgroundColor="background" foregroundColor="un56c856" name="conax_ecm" valign="center" zPosition="5" transparent="1" />
-    <widget name="button_fta" text="PE Free to Air" backgroundColor="background" transparent="1" position="610,86" size="220,24" halign="left" font="OLED;22" foregroundColor="unaaaaaa" zPosition="10" />
-    <widget name="button_card" text="PE Card" backgroundColor="background" transparent="1" position="610,86" size="220,24" halign="left" font="OLED;24" foregroundColor="un56c856" zPosition="11" />
-    <widget name="button_emu" text="PE Emulator" backgroundColor="background" transparent="1" position="610,86" size="220,24" halign="left" font="OLED;24" foregroundColor="unfcc000" zPosition="12" />
-    <widget name="button_spider" text="PE Network" backgroundColor="background" transparent="1" position="610,86" size="220,24" halign="left" font="OLED;24" foregroundColor="unf23d21" zPosition="13" />
+    <widget position="70,86" size="20,22" halign="center" text="B" font="Regular;20" backgroundColor="un999999" foregroundColor="un999999" name="beta_no" valign="center" zPosition="3" transparent="1" />
+    <widget position="70,86" size="20,22" halign="center" text="B" font="Regular;20" backgroundColor="unf23d21" foregroundColor="unf23d21" name="beta_emm" valign="center" zPosition="4" transparent="1" />
+    <widget position="70,86" size="20,22" halign="center" text="B" font="Regular;20" backgroundColor="background" foregroundColor="un56c856" name="beta_ecm" valign="center" zPosition="5" transparent="1" />
+    <widget position="93,86" size="20,22" halign="center" text="I" font="Regular;20" backgroundColor="un999999" foregroundColor="un999999" name="irdeto_no" valign="center" zPosition="3" transparent="1" />
+    <widget position="93,86" size="20,22" halign="center" text="I" font="Regular;20" backgroundColor="unf23d21" foregroundColor="unf23d21" name="irdeto_emm" valign="center" zPosition="4" transparent="1" />
+    <widget position="93,86" size="20,22" halign="center" text="I" font="Regular;20" backgroundColor="background" foregroundColor="un56c856" name="irdeto_ecm" valign="center" zPosition="5" transparent="1" />
+    <widget position="116,86" size="20,22" halign="center" text="S" font="Regular;20" backgroundColor="un999999" foregroundColor="un999999" name="seca_no" valign="center" zPosition="3" transparent="1" />
+    <widget position="116,86" size="20,22" halign="center" text="S" font="Regular;20" backgroundColor="unf23d21" foregroundColor="unf23d21" name="seca_emm" valign="center" zPosition="4" transparent="1" />
+    <widget position="116,86" size="20,22" halign="center" text="S" font="Regular;20" backgroundColor="background" foregroundColor="un56c856" name="seca_ecm" valign="center" zPosition="5" transparent="1" />
+    <widget position="139,86" size="20,22" halign="center" text="V" font="Regular;20" backgroundColor="un999999" foregroundColor="un999999" name="via_no" valign="center" zPosition="3" transparent="1" />
+    <widget position="139,86" size="20,22" halign="center" text="V" font="Regular;20" backgroundColor="unf23d21" foregroundColor="unf23d21" name="via_emm" valign="center" zPosition="4" transparent="1" />
+    <widget position="139,86" size="20,22" halign="center" text="V" font="Regular;20" backgroundColor="background" foregroundColor="un56c856" name="via_ecm" valign="center" zPosition="5" transparent="1" />
+    <widget position="162,86" size="20,22" halign="center" text="N" font="Regular;20" backgroundColor="un999999" foregroundColor="un999999" name="nagra_no" valign="center" zPosition="3" transparent="1" />
+    <widget position="162,86" size="20,22" halign="center" text="N" font="Regular;20" backgroundColor="unf23d21" foregroundColor="unf23d21" name="nagra_emm" valign="center" zPosition="4" transparent="1" />
+    <widget position="162,86" size="20,22" halign="center" text="N" font="Regular;20" backgroundColor="background" foregroundColor="un56c856" name="nagra_ecm" valign="center" zPosition="5" transparent="1" />
+    <widget position="185,86" size="38,22" halign="center" text="CW" font="Regular;20" backgroundColor="un999999" foregroundColor="un999999" name="cw_no" valign="center" zPosition="3" transparent="1" />
+    <widget position="185,86" size="38,22" halign="center" text="CW" font="Regular;20" backgroundColor="unf23d21" foregroundColor="unf23d21" name="cw_emm" valign="center" zPosition="4" transparent="1" />
+    <widget position="185,86" size="38,22" halign="center" text="CW" font="Regular;20" backgroundColor="background" foregroundColor="un56c856" name="cw_ecm" valign="center" zPosition="5" transparent="1" />
+    <widget position="226,86" size="38,22" halign="center" text="ND" font="Regular;20" backgroundColor="un999999" foregroundColor="un999999" name="nds_no" valign="center" zPosition="3" transparent="1" />
+    <widget position="226,86" size="38,22" halign="center" text="ND" font="Regular;20" backgroundColor="unf23d21" foregroundColor="unf23d21" name="nds_emm" valign="center" zPosition="4" transparent="1" />
+    <widget position="226,86" size="38,22" halign="center" text="ND" font="Regular;20" backgroundColor="un56c856" foregroundColor="un56c856" name="nds_ecm" valign="center" zPosition="5" transparent="1" />
+    <widget position="267,86" size="38,22" halign="center" text="CO" font="Regular;20" backgroundColor="un999999" foregroundColor="un999999" name="conax_no" valign="center" zPosition="3" transparent="1" />
+    <widget position="267,86" size="38,22" halign="center" text="CO" font="Regular;20" backgroundColor="unf23d21" foregroundColor="unf23d21" name="conax_emm" valign="center" zPosition="4" transparent="1" />
+    <widget position="267,86" size="38,22" halign="center" text="CO" font="Regular;20" backgroundColor="background" foregroundColor="un56c856" name="conax_ecm" valign="center" zPosition="5" transparent="1" />
+    <widget name="button_fta" text="Free to Air" backgroundColor="background" transparent="1" position="610,86" size="220,24" halign="left" font="OLED;22" foregroundColor="unaaaaaa" zPosition="10" />
+    <widget name="button_card" text="Card" backgroundColor="background" transparent="1" position="610,86" size="220,24" halign="left" font="OLED;24" foregroundColor="un56c856" zPosition="11" />
+    <widget name="button_emu" text="Emulator" backgroundColor="background" transparent="1" position="610,86" size="220,24" halign="left" font="OLED;24" foregroundColor="unfcc000" zPosition="12" />
+    <widget name="button_spider" text="Network" backgroundColor="background" transparent="1" position="610,86" size="220,24" halign="left" font="OLED;24" foregroundColor="unf23d21" zPosition="13" />
   </screen>
   <!--  FINE WIDGETS OBBLIGATORI NELLA EXTRA INFOBAR  -->
   <!--  END OF FIXED WIDGETS  -->
@@ -787,13 +787,13 @@ BH178 Default HD - Copyright (C) 2012 GPL-III by BlackHole
     <widget source="Gateway" render="Label" position="690,540" size="240,24" font="Regular;20" transparent="1" />
   </screen>
   <!--AC130 LiveStreamingLinksHeader -->
-  <screen name="LiveStreamingLinksHeader" position="0,0" size="1280,720" title="PE " flags="wfNoBorder">
+  <screen name="LiveStreamingLinksHeader" position="0,0" size="1280,720" title="" flags="wfNoBorder">
     <ePixmap position="0,0" zPosition="-1" size="1280,720" pixmap="FHD5-Eminem/frame_base-fs8.png" />
     <eLabel text="PE Live Streaming Links Header" position="80,30" size="800,44" font="RegularAA;36" halign="left" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
     <widget name="menu" position="60,120" size="760,190" scrollbarMode="showOnDemand" transparent="1" />
   </screen>
   <!--AC131 LiveStreamingLinks (2) -->
-  <screen name="LiveStreamingLinks" position="0,0" size="1280,720" title="PE " flags="wfNoBorder">
+  <screen name="LiveStreamingLinks" position="0,0" size="1280,720" title="" flags="wfNoBorder">
     <ePixmap position="0,0" zPosition="-1" size="1280,720" pixmap="FHD5-Eminem/frame_base-fs8.png" />
     <ePixmap position="1198,118" zPosition="2" size="22,282" pixmap="FHD5-Eminem/scroll.png" alphatest="blend" transparent="1" />
     <eLabel text="PE Live Streaming Links" position="80,30" size="800,44" font="RegularAA;36" halign="left" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
@@ -833,10 +833,10 @@ BH178 Default HD - Copyright (C) 2012 GPL-III by BlackHole
             </convert>
   </widget>
   <widget source="introduction" render="Label" zPosition="2" position="228,381" size="700,40" font="Regular;30" halign="center" transparent="1" foregroundColor="yellow" backgroundColor="transpBlack" />
-  <widget source="key_red" render="Label" position="122,657" zPosition="2" size="165,25" font="Regular; 25" halign="center" valign="center" foregroundColor="un999999" backgroundColor="background" transparent="1" text="PE Remove" />
-  <widget source="key_green" render="Label" position="409,657" zPosition="2" size="165,25" font="Regular; 25" halign="center" valign="center" foregroundColor="un999999" backgroundColor="background" transparent="1" text="PE Initialize" />
-  <widget source="key_yellow" render="Label" position="702,657" zPosition="2" size="165,25" font="Regular; 25" halign="center" valign="center" foregroundColor="un999999" backgroundColor="background" transparent="1" text="PE Check" />
-  <widget source="key_blue" render="Label" position="989,657" zPosition="2" size="165,25" font="Regular; 25" halign="center" valign="center" foregroundColor="un999999" backgroundColor="background" transparent="1" text="PE Settings" />
+  <widget source="key_red" render="Label" position="122,657" zPosition="2" size="165,25" font="Regular; 25" halign="center" valign="center" foregroundColor="un999999" backgroundColor="background" transparent="1" text="Remove" />
+  <widget source="key_green" render="Label" position="409,657" zPosition="2" size="165,25" font="Regular; 25" halign="center" valign="center" foregroundColor="un999999" backgroundColor="background" transparent="1" text="Initialize" />
+  <widget source="key_yellow" render="Label" position="702,657" zPosition="2" size="165,25" font="Regular; 25" halign="center" valign="center" foregroundColor="un999999" backgroundColor="background" transparent="1" text="Check" />
+  <widget source="key_blue" render="Label" position="989,657" zPosition="2" size="165,25" font="Regular; 25" halign="center" valign="center" foregroundColor="un999999" backgroundColor="background" transparent="1" text="Settings" />
   <ePixmap position="953,650" size="250,40" pixmap="FHD5-Eminem/buttons/blue25.png" alphatest="on" zPosition="1" />
   <ePixmap position="666,650" size="250,40" pixmap="FHD5-Eminem/buttons/yellow25.png" alphatest="on" zPosition="1" />
   <ePixmap position="374,650" size="250,40" pixmap="FHD5-Eminem/buttons/green25.png" alphatest="on" zPosition="1" />
@@ -856,23 +856,23 @@ BH178 Default HD - Copyright (C) 2012 GPL-III by BlackHole
   <ePixmap pixmap="FHD5-Eminem/div-h.png" position="470,550" zPosition="1" size="700,2" />
   <widget name="HelpWindow" pixmap="FHD5-Eminem/vkey_icon.png" position="590,400" zPosition="1" size="1,1" transparent="1" alphatest="on" />
   <widget source="introduction" render="Label" zPosition="2" position="120,370" size="700,40" font="Regular;30" halign="center" transparent="1" foregroundColor="yellow" backgroundColor="transpBlack" />
-  <widget source="key_red" render="Label" position="122,657" zPosition="2" size="165,25" font="Regular; 25" halign="center" valign="center" foregroundColor="un999999" backgroundColor="background" transparent="1" text="PE Remove" />
-  <widget source="key_green" render="Label" position="409,657" zPosition="2" size="165,25" font="Regular; 25" halign="center" valign="center" foregroundColor="un999999" backgroundColor="background" transparent="1" text="PE Initialize" />
-  <widget source="key_yellow" render="Label" position="702,657" zPosition="2" size="165,25" font="Regular; 25" halign="center" valign="center" foregroundColor="un999999" backgroundColor="background" transparent="1" text="PE Check" />
-  <widget source="key_blue" render="Label" position="989,657" zPosition="2" size="165,25" font="Regular; 25" halign="center" valign="center" foregroundColor="un999999" backgroundColor="background" transparent="1" text="PE Settings" />
+  <widget source="key_red" render="Label" position="122,657" zPosition="2" size="165,25" font="Regular; 25" halign="center" valign="center" foregroundColor="un999999" backgroundColor="background" transparent="1" text="Remove" />
+  <widget source="key_green" render="Label" position="409,657" zPosition="2" size="165,25" font="Regular; 25" halign="center" valign="center" foregroundColor="un999999" backgroundColor="background" transparent="1" text="Initialize" />
+  <widget source="key_yellow" render="Label" position="702,657" zPosition="2" size="165,25" font="Regular; 25" halign="center" valign="center" foregroundColor="un999999" backgroundColor="background" transparent="1" text="Check" />
+  <widget source="key_blue" render="Label" position="989,657" zPosition="2" size="165,25" font="Regular; 25" halign="center" valign="center" foregroundColor="un999999" backgroundColor="background" transparent="1" text="Settings" />
   <ePixmap position="953,650" size="250,40" pixmap="FHD5-Eminem/buttons/blue25.png" alphatest="on" zPosition="1" />
   <ePixmap position="666,650" size="250,40" pixmap="FHD5-Eminem/buttons/yellow25.png" alphatest="on" zPosition="1" />
   <ePixmap position="374,650" size="250,40" pixmap="FHD5-Eminem/buttons/green25.png" alphatest="on" zPosition="1" />
   <ePixmap position="89,650" size="250,40" pixmap="FHD5-Eminem/buttons/red25.png" alphatest="on" zPosition="1" />
 </screen>
-  <screen name="HarddiskMountpointBrowser" position="0,0" size="1280,720" title="PE Select mountpoint" flags="wfNoBorder">
+  <screen name="HarddiskMountpointBrowser" position="0,0" size="1280,720" title="Select mountpoint" flags="wfNoBorder">
   <ePixmap position="0,0" zPosition="-1" size="1280,720" pixmap="FHD5-Eminem/frame_base-fs8.png" />
   <ePixmap position="1198,118" zPosition="2" size="22,432" pixmap="FHD5-Eminem/scroll.png" alphatest="blend" transparent="1" />
   <widget source="Title" render="Label" zPosition="2" position="255,34" size="302,40" halign="center" font="Regular;30" foregroundColor="yellow" transparent="1" backgroundColor="transpBlack" />
-  <widget source="key_red" render="Label" position="122,657" zPosition="2" size="165,25" font="Regular; 25" halign="center" valign="center" foregroundColor="un999999" backgroundColor="background" transparent="1" text="PE Remove" />
-  <widget source="key_green" render="Label" position="409,657" zPosition="2" size="165,25" font="Regular; 25" halign="center" valign="center" foregroundColor="un999999" backgroundColor="background" transparent="1" text="PE Initialize" />
-  <widget source="key_yellow" render="Label" position="702,657" zPosition="2" size="165,25" font="Regular; 25" halign="center" valign="center" foregroundColor="un999999" backgroundColor="background" transparent="1" text="PE Check" />
-  <widget source="key_blue" render="Label" position="989,657" zPosition="2" size="165,25" font="Regular; 25" halign="center" valign="center" foregroundColor="un999999" backgroundColor="background" transparent="1" text="PE Settings" />
+  <widget source="key_red" render="Label" position="122,657" zPosition="2" size="165,25" font="Regular; 25" halign="center" valign="center" foregroundColor="un999999" backgroundColor="background" transparent="1" text="Remove" />
+  <widget source="key_green" render="Label" position="409,657" zPosition="2" size="165,25" font="Regular; 25" halign="center" valign="center" foregroundColor="un999999" backgroundColor="background" transparent="1" text="Initialize" />
+  <widget source="key_yellow" render="Label" position="702,657" zPosition="2" size="165,25" font="Regular; 25" halign="center" valign="center" foregroundColor="un999999" backgroundColor="background" transparent="1" text="Check" />
+  <widget source="key_blue" render="Label" position="989,657" zPosition="2" size="165,25" font="Regular; 25" halign="center" valign="center" foregroundColor="un999999" backgroundColor="background" transparent="1" text="Settings" />
   <ePixmap position="953,650" size="250,40" pixmap="FHD5-Eminem/buttons/blue25.png" alphatest="on" zPosition="1" />
   <ePixmap position="666,650" size="250,40" pixmap="FHD5-Eminem/buttons/yellow25.png" alphatest="on" zPosition="1" />
   <ePixmap position="374,650" size="250,40" pixmap="FHD5-Eminem/buttons/green25.png" alphatest="on" zPosition="1" />
@@ -1132,7 +1132,7 @@ BH178 Default HD - Copyright (C) 2012 GPL-III by BlackHole
     </widget>
   </screen>
   <!-- AF124 Hard disk Selection -->
-  <screen name="HarddiskSelection" position="center,center" size="750,460" title="PE Select HDD">
+  <screen name="HarddiskSelection" position="center,center" size="750,460" title="Select HDD">
     <widget name="hddlist" position="20,20" size="710,435" scrollbarMode="showOnDemand" transparent="1" />
   </screen>
   <!-- AF125 Hard disk Setup ( 1 )-->
@@ -1283,9 +1283,9 @@ BH178 Default HD - Copyright (C) 2012 GPL-III by BlackHole
     <widget name="config" zPosition="2" position="20,30" size="710,200" scrollbarMode="showOnDemand" transparent="1" />
   </screen>
   <!--AF132 Select bouquets to convert  ( 4 )-->
-  <screen name="StreamingChannelFromServerScreen" position="0,0" size="1280,720" title="PE Select bouquets to convert" flags="wfNoBorder">
+  <screen name="StreamingChannelFromServerScreen" position="0,0" size="1280,720" title="Select bouquets to convert" flags="wfNoBorder">
     <ePixmap position="0,0" zPosition="-1" size="1280,720" pixmap="FHD5-Eminem/frame_base-fs8.png" />
-    <eLabel text="PE Select bouquets to convert" position="80,30" size="800,44" font="RegularAA;36" halign="left" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
+    <eLabel text="Select bouquets to convert" position="80,30" size="800,44" font="RegularAA;36" halign="left" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
     <ePixmap position="0,650" zPosition="1" size="1280,40" pixmap="FHD5-Eminem/buttons4.png" alphatest="blend" />
     <widget source="key_red" render="Label" position="56,650" size="250,40" zPosition="2" font="Regular;24" halign="center" valign="center" backgroundColor="transpBlack" transparent="1" />
     <widget source="key_green" render="Label" position="362,650" size="250,40" zPosition="2" font="Regular;24" halign="center" valign="center" backgroundColor="transpBlack" transparent="1" />
@@ -1353,7 +1353,7 @@ BH178 Default HD - Copyright (C) 2012 GPL-III by BlackHole
 	<screen name="BouquetSelector" position="0,0" size="1280,720" title="PE Choose bouquet" flags="wfNoBorder">
 <ePixmap position="0,0" zPosition="-1" size="1280,720" pixmap="FHD5-Eminem/frame_base-fs8.png" />
 <ePixmap position="1198,118" zPosition="2" size="22,402" pixmap="FHD5-Eminem/scroll.png" alphatest="blend" transparent="1" />
-<eLabel text="PE Choose bouquet" position="80,30" size="800,44" font="RegularAA;36" halign="left" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
+<eLabel text="Choose bouquet" position="80,30" size="800,44" font="RegularAA;36" halign="left" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
 <widget name="menu" position="60,120" size="1160,400" scrollbarMode="showOnDemand" transparent="1" />
 </screen>
 <!-- AG103 ChannelContextMenu -->
@@ -1367,8 +1367,8 @@ BH178 Default HD - Copyright (C) 2012 GPL-III by BlackHole
 <ePixmap position="0,650" zPosition="2" size="1280,40" pixmap="FHD5-Eminem/buttons4.png" alphatest="blend" />
 <ePixmap position="55,470" zPosition="-1" size="1170,130" pixmap="FHD5-Eminem/r1130x78.png" alphatest="on" />
 <ePixmap position="1198,118" zPosition="6" size="22,338" pixmap="FHD5-Eminem/scroll.png" alphatest="blend" transparent="1" />
-<eLabel text="PE Channel Name:" zPosition="6" position="80,482" size="100,28" halign="right" font="Regular;24" foregroundColor="grey" transparent="1" backgroundColor="transpBlack" />
-<eLabel text="PE Provider:" zPosition="6" position="630,482" size="100,28" halign="right" font="Regular;24" foregroundColor="grey" transparent="1" backgroundColor="transpBlack" />
+<eLabel text="Channel Name:" zPosition="6" position="80,482" size="100,28" halign="right" font="Regular;24" foregroundColor="grey" transparent="1" backgroundColor="transpBlack" />
+<eLabel text="Provider:" zPosition="6" position="630,482" size="100,28" halign="right" font="Regular;24" foregroundColor="grey" transparent="1" backgroundColor="transpBlack" />
 <eLabel text="PE Channel Selection Radio" position="80,30" size="800,44" font="RegularAA;36" halign="left" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
 <widget name="list" position="60,120" size="1160,336" zPosition="6" scrollbarMode="showOnDemand" foregroundColorServiceNotAvail="#666666" serviceNumberFont="Regular;20" serviceNameFont="Regular;24" serviceInfoFont="Regular;24" colorServiceDescription="#5395c3" picServiceEventProgressbar="FHD5-Eminem/pl.png" transparent="1" />
 <ePixmap pixmap="FHD5-Eminem/ico_rec_off.png" position="1160,488" size="44,26" zPosition="1" alphatest="blend" />
@@ -1385,17 +1385,17 @@ BH178 Default HD - Copyright (C) 2012 GPL-III by BlackHole
 <convert type="EventTime">StartTime</convert>
 <convert type="ClockToText">Default</convert>
 </widget>
-<eLabel text="PE -" position="150,506" size="15,28" font="Regular;24" halign="center" foregroundColor="un999999" backgroundColor="transpBlack" transparent="1" />
+<eLabel text="-" position="150,506" size="15,28" font="Regular;24" halign="center" foregroundColor="un999999" backgroundColor="transpBlack" transparent="1" />
 <widget source="session.Event_Now" render="Label" position="165,506" size="70,28" font="Regular;24" halign="left" foregroundColor="un999999" backgroundColor="transpBlack" transparent="1">
 <convert type="EventTime">EndTime</convert>
 <convert type="ClockToText">Default</convert>
 </widget>
-<eLabel text="PE (" position="240,506" size="10,26" font="Regular;22" halign="center" foregroundColor="un999999" backgroundColor="transpBlack" transparent="1" />
+<eLabel text="(" position="240,506" size="10,26" font="Regular;22" halign="center" foregroundColor="un999999" backgroundColor="transpBlack" transparent="1" />
 <widget source="session.Event_Now" render="Label" position="250,506" size="100,26" font="Regular;22" halign="center" foregroundColor="un999999" backgroundColor="transpBlack" transparent="1">
 <convert type="EventTime">Remaining</convert>
 <convert type="RemainingToText">InMinutes</convert>
 </widget>
-<eLabel text="PE )" position="350,506" size="10,26" font="Regular;22" halign="center" foregroundColor="un999999" backgroundColor="transpBlack" transparent="1" />
+<eLabel text=")" position="350,506" size="10,26" font="Regular;22" halign="center" foregroundColor="un999999" backgroundColor="transpBlack" transparent="1" />
 <widget source="session.Event_Now" render="Label" position="375,506" size="770,26" font="Regular;22" halign="left" foregroundColor="un999999" backgroundColor="transpBlack" transparent="1">
 <convert type="EventName">Name</convert>
 </widget>
@@ -1406,17 +1406,17 @@ BH178 Default HD - Copyright (C) 2012 GPL-III by BlackHole
 <convert type="EventTime">StartTime</convert>
 <convert type="ClockToText">Default</convert>
 </widget>
-<eLabel text="PE -" position="150,539" size="15,28" font="Regular;24" halign="center" foregroundColor="grey" backgroundColor="black" transparent="1" />
+<eLabel text="-" position="150,539" size="15,28" font="Regular;24" halign="center" foregroundColor="grey" backgroundColor="black" transparent="1" />
 <widget source="session.Event_Next" render="Label" position="165,539" size="70,28" font="Regular;24" halign="left" foregroundColor="grey" backgroundColor="transpBlack" transparent="1">
 <convert type="EventTime">EndTime</convert>
 <convert type="ClockToText">Default</convert>
 </widget>
-<eLabel text="PE (" position="240,540" size="10,26" font="Regular;22" halign="center" foregroundColor="grey" backgroundColor="black" transparent="1" />
+<eLabel text="(" position="240,540" size="10,26" font="Regular;22" halign="center" foregroundColor="grey" backgroundColor="black" transparent="1" />
 <widget source="session.Event_Next" render="Label" position="250,540" size="100,26" font="Regular;22" halign="center" foregroundColor="grey" backgroundColor="transpBlack" transparent="1">
 <convert type="EventTime">Duration</convert>
 <convert type="ClockToText">InMinutes</convert>
 </widget>
-<eLabel text="PE )" position="350,540" size="10,26" font="Regular;22" halign="center" foregroundColor="grey" backgroundColor="black" transparent="1" />
+<eLabel text=")" position="350,540" size="10,26" font="Regular;22" halign="center" foregroundColor="grey" backgroundColor="black" transparent="1" />
 <widget source="session.Event_Next" render="Label" position="375,540" size="770,26" font="Regular;22" halign="left" foregroundColor="grey" backgroundColor="transpBlack" transparent="1">
 <convert type="EventName">Name</convert>
 </widget>
@@ -1446,179 +1446,6 @@ BH178 Default HD - Copyright (C) 2012 GPL-III by BlackHole
 <widget name="Dishpixmap" pixmap="FHD5-Eminem/icons/dish.png" position="0,0" size="119,146" alphatest="off" />
 </screen>
 <!--##### AH100 EPG   #####-->
-<!--AH101 DeliteEpgPanel_EPG Settings ( 4 )-->
-<screen name="DeliteEpgPanel" position="0,0" size="1280,720" title="PE EPG Settings" flags="wfNoBorder">
-<ePixmap position="0,0" zPosition="-1" size="1280,720" pixmap="FHD5-Eminem/frame_base-fs8.png" />
-<ePixmap position="1198,318" zPosition="2" size="22,252" pixmap="FHD5-Eminem/scroll.png" alphatest="blend" transparent="1" />
-<eLabel text="PE EPG Settings" position="80,30" size="800,44" font="RegularAA;36" halign="left" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
-<widget name="lsinactive" position="60,120" zPosition="1" pixmap="FHD5-Eminem/icons/inactive.png" size="32,32" alphatest="on" />
-<widget name="lsactive" position="60,120" zPosition="2" pixmap="FHD5-Eminem/icons/active.png" size="32,32" alphatest="on" />
-<widget name="lab1" position="100,120" size="400,30" font="Regular;24" valign="center" transparent="1" />
-<widget name="luinactive" position="60,160" zPosition="1" pixmap="FHD5-Eminem/icons/inactive.png" size="32,32" alphatest="on" />
-<widget name="luactive" position="60,160" zPosition="2" pixmap="FHD5-Eminem/icons/active.png" size="32,32" alphatest="on" />
-<widget name="lab2" position="100,160" size="400,30" font="Regular;24" valign="center" transparent="1" />
-<widget name="lpinactive" position="60,200" zPosition="1" pixmap="FHD5-Eminem/icons/inactive.png" size="32,32" alphatest="on" />
-<widget name="lpactive" position="60,200" zPosition="2" pixmap="FHD5-Eminem/icons/active.png" size="32,32" alphatest="on" />
-<widget name="lab3" position="100,200" size="450,30" font="Regular;24" valign="center" transparent="1" />
-<widget name="lab4" position="100,240" size="260,30" font="Regular;24" valign="center" transparent="1" />
-<widget name="labpath" position="220,240" size="560,32" font="Regular;24" valign="center" halign="center" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
-<widget name="lab5" position="60,290" size="260,30" font="Regular;24" valign="center" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
-<widget source="list" render="Listbox" position="60,320" size="1160,250" scrollbarMode="showOnDemand" transparent="1">
-<convert type="StringList" />
-</widget>
-<ePixmap position="56,650" size="250,40" pixmap="FHD5-Eminem/buttons/red25.png" alphatest="on" zPosition="1" />
-<ePixmap position="362,650" size="250,40" pixmap="FHD5-Eminem/buttons/green25.png" alphatest="on" zPosition="1" />
-<ePixmap position="668,650" size="250,40" pixmap="FHD5-Eminem/buttons/yellow25.png" alphatest="on" zPosition="1" />
-<ePixmap position="974,650" size="250,40" pixmap="FHD5-Eminem/buttons/blue25.png" alphatest="on" zPosition="1" />
-<widget name="key_red" position="56,650" zPosition="2" size="250,40" font="Regular;24" halign="center" valign="center" backgroundColor="transpBlack" transparent="1" />
-<widget name="key_green" position="362,650" zPosition="2" size="250,40" font="Regular;24" halign="center" valign="center" backgroundColor="transpBlack" transparent="1" />
-<widget name="key_yellow" position="668,650" zPosition="2" size="250,40" font="Regular;24" halign="center" valign="center" backgroundColor="transpBlack" transparent="1" />
-<widget name="key_blue" position="974,650" zPosition="2" size="250,40" font="Regular;24" halign="center" valign="center" backgroundColor="transpBlack" transparent="1" />
-</screen>
-<!-- AH102 DeliteEpgGlobalSetup_EPG Setup ( 1 )-->
-<screen name="DeliteEpgGlobalSetup" position="0,0" size="1280,720" title="PE EPG Setup" flags="wfNoBorder">
-<ePixmap position="0,0" zPosition="-1" size="1280,720" pixmap="FHD5-Eminem/frame_base-fs8.png" />
-<eLabel text="PE EPG Setup" position="80,30" size="800,44" font="RegularAA;36" halign="left" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
-<widget name="config" position="60,120" size="1160,280" scrollbarMode="showOnDemand" transparent="1" />
-<ePixmap position="515,650" size="250,40" pixmap="FHD5-Eminem/buttons/red25.png" alphatest="on" zPosition="1" />
-<widget name="key_red" position="515,650" size="250,40" zPosition="2" font="Regular;24" halign="center" valign="center" backgroundColor="transpBlack" transparent="1" />
-</screen>
-<!-- AH103  DeliteExtdatProv  ( 2 )-->
-<screen name="DeliteExtdatProv" position="0,0" size="1280,720" title="PE EPG Settings" flags="wfNoBorder">
-<ePixmap position="0,0" zPosition="-1" size="1280,720" pixmap="FHD5-Eminem/frame_base-fs8.png" />
-<eLabel text="PE EPG Settings" position="80,30" size="800,44" font="RegularAA;36" halign="left" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
-<widget name="lab1" position="60,120" size="300,30" font="Regular;22" transparent="1" />
-<widget name="labprov" position="220,120" size="400,30" font="Regular;24" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
-<widget name="lab1a" position="60,160" size="300,30" font="Regular;24" transparent="1" />
-<widget name="labtype" position="220,160" size="400,30" font="Regular;24" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
-<widget name="lab2" position="60,200" size="300,30" font="Regular;24" valign="center" transparent="1" />
-<widget name="laburl" position="220,200" size="540,90" font="Regular;24" valign="center" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
-<widget name="lsinactive" position="60,320" zPosition="1" pixmap="FHD5-Eminem/icons/inactive.png" size="32,32" alphatest="on" />
-<widget name="lsactive" position="60,320" zPosition="2" pixmap="FHD5-Eminem/icons/active.png" size="32,32" alphatest="on" />
-<widget name="lab5" position="100,320" size="450,30" font="Regular;24" valign="center" transparent="1" />
-<widget name="lab6" position="100,360" size="430,30" font="Regular;24" valign="center" transparent="1" />
-<widget name="labtimes" position="500,360" size="120,32" font="Regular;24" valign="center" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
-<ePixmap pixmap="FHD5-Eminem/buttons/red25.png" position="260,650" size="250,40" alphatest="on" zPosition="1" />
-<ePixmap pixmap="FHD5-Eminem/buttons/yellow25.png" position="770,650" size="250,40" alphatest="on" zPosition="1" />
-<widget name="key_red" position="260,650" zPosition="2" size="250,40" font="Regular;24" halign="center" valign="center" backgroundColor="transpBlack" transparent="1" />
-<widget name="key_yellow" position="770,650" zPosition="2" size="250,40" font="Regular;24" halign="center" valign="center" backgroundColor="transpBlack" transparent="1" />
-</screen>
-<!-- AH104 DeliteExtdatSetup ( 1 ) -->
-<screen name="DeliteExtdatSetup" position="0,0" size="1280,720" title="PE EPG Setup" flags="wfNoBorder">
-<ePixmap position="0,0" zPosition="-1" size="1280,720" pixmap="FHD5-Eminem/frame_base-fs8.png" />
-<eLabel text="PE EPG Setup" position="80,30" size="800,44" font="RegularAA;36" halign="left" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
-<widget name="lab1" position="60,120" size="240,30" font="Regular;22" transparent="1" />
-<widget name="labprov" position="310,120" size="340,30" font="Regular;24" />
-<widget name="config" position="60,170" size="1160,220" scrollbarMode="showOnDemand" transparent="1" />
-<ePixmap pixmap="FHD5-Eminem/buttons/red25.png" position="515,650" size="250,40" alphatest="on" zPosition="1" />
-<widget name="key_red" position="515,650" zPosition="2" size="250,40" font="Regular;24" halign="center" valign="center" backgroundColor="transpBlack" transparent="1" />
-</screen>
-<!-- AH105 DeliteEpgAddProvider ( 2 ) -->
-<screen name="DeliteEpgAddProvider" position="0,0" size="1280,720" title="PE EpgPanel: Add External epg Server" flags="wfNoBorder">
-<ePixmap position="0,0" zPosition="-1" size="1280,720" pixmap="FHD5-Eminem/frame_base-fs8.png" />
-<eLabel text="PE EpgPanel:Add Ext. epg Server" position="80,30" size="800,44" font="RegularAA;36" halign="left" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
-<widget name="lab1" position="60,480" size="1160,120" font="Regular;24" halign="center" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
-<widget name="config" position="60,120" size="1160,120" scrollbarMode="showOnDemand" transparent="1" />
-<ePixmap pixmap="FHD5-Eminem/buttons/red25.png" position="260,650" size="250,40" alphatest="on" zPosition="1" />
-<ePixmap pixmap="FHD5-Eminem/buttons/green25.png" position="770,650" size="250,40" alphatest="on" zPosition="1" /> /&gt; 
-        <widget name="key_red" position="260,650" zPosition="2" size="250,40" font="Regular;24" halign="center" valign="center" backgroundColor="transpBlack" transparent="1" />
-<widget name="key_green" position="770,650" zPosition="2" size="250,40" font="Regular;24" halign="center" valign="center" backgroundColor="transpBlack" transparent="1" />
-</screen>
-<!--AH106 DeliteOpenepgProv_EPG Settings ( 3 ) -->
-<screen name="DeliteOpenepgProv" position="0,0" size="1280,720" title="PE EPG Settings" flags="wfNoBorder">
-<ePixmap position="0,0" zPosition="-1" size="1280,720" pixmap="FHD5-Eminem/frame_base-fs8.png" />
-<eLabel text="PE EPG Settings" position="80,30" size="800,44" font="RegularAA;36" halign="left" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
-<widget name="lab1" position="60,120" size="300,30" font="Regular;24" transparent="1" />
-<widget name="labprov" position="330,120" size="400,30" font="Regular;24" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
-<widget name="lab1a" position="60,160" size="300,30" font="Regular;24" transparent="1" />
-<widget name="labtype" position="330,160" size="400,30" font="Regular;24" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
-<widget name="lab2" position="60,200" size="300,30" font="Regular;24" valign="center" transparent="1" />
-<widget name="labchan" position="330,200" size="400,30" font="Regular;24" valign="center" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
-<widget name="lsinactive" position="60,320" zPosition="1" pixmap="FHD5-Eminem/icons/inactive.png" size="32,32" alphatest="on" />
-<widget name="lsactive" position="60,320" zPosition="2" pixmap="FHD5-Eminem/icons/active.png" size="32,32" alphatest="on" />
-<widget name="lab3" position="100,320" size="400,30" font="Regular;24" valign="center" transparent="1" />
-<widget name="lab4" position="100,360" size="380,30" font="Regular;24" valign="center" transparent="1" />
-<widget name="labtimes" position="500,360" size="90,32" font="Regular;24" valign="center" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
-<widget name="lab5" position="100,390" size="520,30" font="Regular;24" valign="center" transparent="1" />
-<widget name="labaction" position="520,390" size="300,60" halign="center" valign="left" font="Regular;24" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
-<ePixmap position="132,650" size="250,40" pixmap="FHD5-Eminem/buttons/red25.png" alphatest="on" zPosition="1" />
-<ePixmap position="514,650" size="250,40" pixmap="FHD5-Eminem/buttons/green25.png" alphatest="on" zPosition="1" />
-<ePixmap position="896,650" size="250,40" pixmap="FHD5-Eminem/buttons/yellow25.png" alphatest="on" zPosition="1" />
-<widget name="key_red" position="132,650" zPosition="2" size="250,40" font="Regular;24" halign="center" valign="center" backgroundColor="transpBlack" transparent="1" />
-<widget name="key_green" position="514,650" zPosition="2" size="250,40" font="Regular;24" halign="center" valign="center" backgroundColor="transpBlack" transparent="1" />
-<widget name="key_yellow" position="896,650" zPosition="2" size="250,40" font="Regular;24" halign="center" valign="center" backgroundColor="transpBlack" transparent="1" />
-</screen>
-<!-- AH107 DeliteOepgSetup_EPG Setup ( 1 )-->
-<screen name="DeliteOepgSetup" position="0,0" size="1280,720" title="PE EPG Setup" flags="wfNoBorder">
-<ePixmap position="0,0" zPosition="-1" size="1280,720" pixmap="FHD5-Eminem/frame_base-fs8.png" />
-<eLabel text="PE EPG Setup" position="80,30" size="800,44" font="RegularAA;36" halign="left" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
-<widget name="lab1" position="60,120" size="240,30" font="Regular;24" transparent="1" />
-<widget name="labprov" position="270,120" size="340,30" font="Regular;24" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
-<widget name="config" position="60,170" size="1160,280" scrollbarMode="showOnDemand" transparent="1" />
-<ePixmap position="515,650" size="250,40" pixmap="FHD5-Eminem/buttons/red25.png" alphatest="on" zPosition="1" />
-<widget name="key_red" position="515,650" size="250,40" zPosition="2" font="Regular;24" halign="center" valign="center" backgroundColor="transpBlack" transparent="1" />
-</screen>
-<!-- AH108 DeliteXmltepgProv_EPG Settings ( 3 )  -->
-<screen name="DeliteXmltepgProv" position="0,0" size="1280,720" title="PE EPG Settings" flags="wfNoBorder">
-<ePixmap position="0,0" zPosition="-1" size="1280,720" pixmap="FHD5-Eminem/frame_base-fs8.png" />
-<eLabel text="PE EPG Settings" position="80,30" size="800,44" font="RegularAA;36" halign="left" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
-<widget name="lab1" position="60,120" size="300,30" font="Regular;24" transparent="1" />
-<widget name="labprov" position="340,120" size="400,30" font="Regular;24" />
-<widget name="lab1a" position="60,160" size="300,30" font="Regular;24" transparent="1" />
-<widget name="labtype" position="340,160" size="400,30" font="Regular;24" />
-<widget name="lab2" position="640,200" size="300,30" font="Regular;24" valign="center" transparent="1" />
-<widget name="laburl" position="340,200" size="400,30" font="Regular;24" valign="center" />
-<widget name="lab3" position="100,320" size="300,30" font="Regular;24" valign="center" transparent="1" />
-<widget name="lablang" position="340,320" size="400,30" valign="center" font="Regular;24" />
-<widget name="lab4" position="100,360" size="300,30" font="Regular;24" valign="center" transparent="1" />
-<widget name="labmaxd" position="340,360" size="400,30" valign="center" font="Regular;24" />
-<widget name="lsinactive" position="60,400" zPosition="1" pixmap="FHD5-Eminem/icons/inactive.png" size="32,32" alphatest="on" />
-<widget name="lsactive" position="60,400" zPosition="2" pixmap="FHD5-Eminem/icons/active.png" size="32,32" alphatest="on" />
-<widget name="lab5" position="100,400" size="600,30" font="Regular;24" valign="center" transparent="1" />
-<widget name="lab6" position="100,440" size="520,30" font="Regular;24" valign="center" transparent="1" />
-<widget name="labtimes" position="500,440" size="90,32" font="Regular;24" valign="center" backgroundColor="unb67a2" />
-<ePixmap position="132,650" size="250,40" pixmap="FHD5-Eminem/buttons/red25.png" alphatest="on" zPosition="1" />
-<ePixmap position="514,650" size="250,40" pixmap="FHD5-Eminem/buttons/green25.png" alphatest="on" zPosition="1" />
-<ePixmap position="896,650" size="250,40" pixmap="FHD5-Eminem/buttons/yellow25.png" alphatest="on" zPosition="1" />
-<widget name="key_red" position="132,650" zPosition="2" size="250,40" font="Regular;24" halign="center" valign="center" backgroundColor="transpBlack" transparent="1" />
-<widget name="key_green" position="514,650" zPosition="2" size="250,40" font="Regular;24" halign="center" valign="center" backgroundColor="transpBlack" transparent="1" />
-<widget name="key_yellow" position="896,650" zPosition="2" size="250,40" font="Regular;24" halign="center" valign="center" backgroundColor="transpBlack" transparent="1" />
-</screen>
-<!-- AH109 DeliteXepgSetup_EPG Setup ( 1 )-->
-<screen name="DeliteXepgSetup" position="0,0" size="1280,720" title="PE EPG Setup" flags="wfNoBorder">
-<ePixmap position="0,0" zPosition="-1" size="1280,720" pixmap="FHD5-Eminem/frame_base-fs8.png" />
-<eLabel text="PE EPG Setup" position="60,30" size="800,44" font="RegularAA;36" halign="left" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
-<widget name="lab1" position="60,120" size="240,30" font="Regular;24" transparent="1" />
-<widget name="labprov" position="280,120" size="340,30" font="Regular;24" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
-<widget name="config" position="60,170" size="1160,280" scrollbarMode="showOnDemand" transparent="1" />
-<ePixmap position="515,650" size="250,40" pixmap="FHD5-Eminem/buttons/red25.png" alphatest="on" zPosition="1" />
-<widget name="key_red" position="515,650" size="250,40" zPosition="2" font="Regular;24" halign="center" valign="center" backgroundColor="transpBlack" transparent="1" />
-</screen>
-<!-- AH110 DeliteEpgChannels_Setup ( 2 )-->
-<screen name="DeliteEpgChannels" position="0,0" size="1280,720" title="PE Epg Channels Setup" flags="wfNoBorder">
-<ePixmap position="0,0" zPosition="-1" size="1280,720" pixmap="FHD5-Eminem/frame_base-fs8.png" />
-<ePixmap position="1198,118" zPosition="2" size="22,452" pixmap="FHD5-Eminem/scroll.png" alphatest="blend" transparent="1" />
-<eLabel text="PE Epg Channels Setup" position="80,30" size="800,44" font="RegularAA;36" halign="left" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
-<widget name="config" position="60,120" size="1160,450" scrollbarMode="showOnDemand" transparent="1" />
-<widget name="Linconn" position="60,580" size="710,28" font="Regular;24" halign="center" valign="center" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
-<ePixmap pixmap="FHD5-Eminem/buttons/red25.png" position="260,650" size="250,40" alphatest="on" zPosition="1" />
-<ePixmap pixmap="FHD5-Eminem/buttons/green25.png" position="770,650" size="250,40" alphatest="on" zPosition="1" /> /&gt; 
-        <widget name="key_red" position="260,650" zPosition="2" size="250,40" font="Regular;24" halign="center" valign="center" backgroundColor="transpBlack" transparent="1" />
-<widget name="key_green" position="770,650" zPosition="2" size="250,40" font="Regular;24" halign="center" valign="center" backgroundColor="transpBlack" transparent="1" />
-</screen>
-<!-- AH111 DeliteDownChannels_Update Channels List ( 1 )-->
-<screen name="DeliteDownChannels" position="center,center" size="600,240" title="PE Update Channels List">
-<widget name="lab1" position="20,20" size="560,180" font="Regular;24" halign="center" valign="center" transparent="1" />
-<ePixmap position="175,180" size="250,40" pixmap="FHD5-Eminem/buttons/red25.png" alphatest="on" zPosition="1" />
-<widget name="key_red" position="175,180" size="250,40" zPosition="2" font="Regular;24" halign="center" valign="center" backgroundColor="transpBlack" transparent="1" />
-</screen>
-<!-- AH112 DeliteDownEpgNow_ Black Hole Epg Download ( 1 )-->
-<screen name="DeliteDownEpgNow" position="0,0" size="1280,720" title="PE Epg Download" flags="wfNoBorder" backgroundColor="transparent">
-<ePixmap position="240,510" size="800,140" zPosition="10" pixmap="FHD5-Eminem/frame_5.png" />
-<widget name="lab1" position="250,534" size="780,300" zPosition="11" font="Regular;20" halign="center" transparent="1" />
-<ePixmap position="515,580" size="250,40" pixmap="FHD5-Eminem/buttons/red25.png" alphatest="on" zPosition="11" />
-<widget name="key_red" position="515,580" size="250,40" zPosition="12" font="Regular;24" halign="center" valign="center" backgroundColor="transpBlack" transparent="1" />
-</screen>
 <!--  AH115 EPG Selection ( 4 )-->
 <screen name="EPGSelection" position="0,0" size="1280,720" title="PE EPG Selection" flags="wfNoBorder">
 <ePixmap pixmap="FHD5-Eminem/frame_base-fs8.png" position="0,0" zPosition="-1" size="1280,720" />
@@ -1644,9 +1471,9 @@ BH178 Default HD - Copyright (C) 2012 GPL-III by BlackHole
 <widget name="now_button_sel" pixmap="FHD5-Eminem/epg_now.png" position="60,120" zPosition="3" size="750,40" alphatest="blend" />
 <widget name="next_button_sel" pixmap="FHD5-Eminem/epg_next.png" position="60,120" zPosition="3" size="750,40" alphatest="blend" />
 <widget name="more_button_sel" pixmap="FHD5-Eminem/epg_more.png" position="60,120" zPosition="3" size="750,40" alphatest="blend" />
-<widget name="now_text" position="63,127" zPosition="4" size="250,25" text="PE NOW" font="Regular;20" halign="center" foregroundColor="un5395c3" backgroundColor="grey" transparent="1" />
-<widget name="next_text" position="315,127" zPosition="4" size="250,25" text="PE NEXT" font="Regular;20" halign="center" foregroundColor="un5395c3" backgroundColor="grey" transparent="1" />
-<widget name="more_text" position="567,127" zPosition="4" size="250,25" text="PE MORE" font="Regular;20" halign="center" foregroundColor="un5395c3" backgroundColor="grey" transparent="1" />
+<widget name="now_text" position="63,127" zPosition="4" size="250,25" text="NOW" font="Regular;20" halign="center" foregroundColor="un5395c3" backgroundColor="grey" transparent="1" />
+<widget name="next_text" position="315,127" zPosition="4" size="250,25" text="NEXT" font="Regular;20" halign="center" foregroundColor="un5395c3" backgroundColor="grey" transparent="1" />
+<widget name="more_text" position="567,127" zPosition="4" size="250,25" text="MORE" font="Regular;20" halign="center" foregroundColor="un5395c3" backgroundColor="grey" transparent="1" />
 <widget name="date" position="60,570" size="200,28" font="Regular;24" valign="left" halign="left" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
 <widget name="list" position="60,170" size="850,404" scrollbarMode="showOnDemand" transparent="1" />
 <ePixmap position="56,640" size="250,40" pixmap="FHD5-Eminem/buttons/red25.png" alphatest="on" zPosition="1" />
@@ -1759,140 +1586,6 @@ BH178 Default HD - Copyright (C) 2012 GPL-III by BlackHole
 <ePixmap position="1102,40" zPosition="4" size="74,36" pixmap="FHD5-Eminem/buttons/key_menu1.png" transparent="1" alphatest="on" />
 </screen>
 <!--##### AL100 PLUGIN CCINFO-MYTUBE-CROSSEPG   #####-->
-<!-- AL101 DeliteCCCInfo -->
-<screen name="DeliteCCcMain" position="0,0" size="1280,720" title="PE CCcam Info" flags="wfNoBorder">
-<ePixmap position="0,0" zPosition="-1" size="1280,720" pixmap="FHD5-Eminem/frame_base-fs8.png" />
-<eLabel text="PE CCcam Info" position="80,30" size="800,44" font="RegularAA;36" halign="left" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
-<widget name="Linconn" position="60,520" size="1160,50" font="Regular;22" halign="center" valign="center" backgroundColor="un9f1313" />
-<widget source="list" render="Listbox" position="60,120" size="1160,440" zPosition="4" scrollbarMode="showOnDemand" selectionPixmap="FHD5-Eminem/icons/listselection450x38-fs8.png" transparent="1">
-<convert type="TemplatedMultiContent">
-                {"template": [
-                    MultiContentEntryText(pos = (60, 2), size = (450, 38), flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 0),
-                 MultiContentEntryPixmapAlphaTest(pos = (4, 3), size = (36, 36), png = 1),
-                    ],
-                    "fonts": [gFont("Regular", 26)],
-                    "itemHeight": 38
-                }
-            </convert>
-</widget>
-</screen>
-<!--AL102 DeliteCCCHo -->
-<screen name="DeliteCCcHo" position="0,0" size="1280,720" title="PE Cccam Main Info" flags="wfNoBorder">
-<ePixmap position="0,0" zPosition="-1" size="1280,720" pixmap="FHD5-Eminem/frame_base-fs8.png" />
-<eLabel text="PE Cccam Main Info" position="80,30" size="800,44" font="RegularAA;36" halign="left" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
-<widget name="infotext" position="60,120" size="760,360" font="Regular;22" foregroundColor="un999999" backgroundColor="transpBlack" transparent="1" />
-<widget name="Linconn" position="60,482" size="1160,50" font="Regular;22" halign="center" valign="center" backgroundColor="un9f1313" />
-</screen>
-<!-- AL103 DeliteCCcAc -->
-<screen name="DeliteCCcAc" position="0,0" size="1280,720" title="PE Active Clients" flags="wfNoBorder">
-<ePixmap position="0,0" zPosition="-1" size="1280,720" pixmap="FHD5-Eminem/frame_base-fs8.png" />
-<eLabel text="PE Active Clients" position="80,30" size="800,44" font="RegularAA;36" halign="left" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
-<ePixmap position="1198,118" zPosition="2" size="22,254" pixmap="FHD5-Eminem/scroll.png" alphatest="blend" transparent="1" />
-<widget name="statuslab" position="260,414" size="760,80" font="Regular;20" halign="center" valign="center" backgroundColor="transpBlack" foregroundColor="unffad31" transparent="1" />
-<widget name="Linconn" position="60,496" size="1160,50" font="Regular;22" halign="center" valign="center" backgroundColor="un9f1313" />
-<widget source="list" render="Listbox" position="60,120" size="1160,252" scrollbarMode="showOnDemand" transparent="1">
-<convert type="TemplatedMultiContent">
-                {"template": [
-                MultiContentEntryText(pos = (30, 1), size = (640, 36), flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 0),
-                ],
-                "fonts": [gFont("Regular", 24)],
-                "itemHeight": 36
-                }
-            </convert>
-</widget>
-</screen>
-<!-- AL104 DeliteCCcCl -->
-<screen name="DeliteCCcCl" position="0,0" size="1280,720" title="PE Active Clients" flags="wfNoBorder">
-<ePixmap position="0,0" zPosition="-1" size="1280,720" pixmap="FHD5-Eminem/frame_base-fs8.png" />
-<eLabel text="PE Active Clients" position="80,30" size="800,44" font="RegularAA;36" halign="left" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
-<ePixmap position="1198,118" zPosition="2" size="22,254" pixmap="FHD5-Eminem/scroll.png" alphatest="blend" transparent="1" />
-<widget name="statuslab" position="260,414" size="760,80" font="Regular;20" halign="center" valign="center" backgroundColor="transpBlack" foregroundColor="unffad31" transparent="1" />
-<widget name="Linconn" position="60,496" size="1160,50" font="Regular;22" halign="center" valign="center" backgroundColor="un9f1313" />
-<widget source="list" render="Listbox" position="60,120" size="1160,252" scrollbarMode="showOnDemand" transparent="1">
-<convert type="TemplatedMultiContent">
-                {"template": [
-                MultiContentEntryText(pos = (30, 1), size = (640, 36), flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 0),
-                ],
-                "fonts": [gFont("Regular", 24)],
-                "itemHeight": 36
-                }
-            </convert>
-</widget>
-</screen>
-<!-- AL105 DeliteCCcSe -->
-<screen name="DeliteCCcSe" position="0,0" size="1280,720" title="PE Servers" flags="wfNoBorder">
-<ePixmap position="0,0" zPosition="-1" size="1280,720" pixmap="FHD5-Eminem/frame_base-fs8.png" />
-<eLabel text="PE Servers" position="80,30" size="800,44" font="RegularAA;36" halign="left" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
-<ePixmap position="1198,118" zPosition="2" size="22,254" pixmap="FHD5-Eminem/scroll.png" alphatest="blend" transparent="1" />
-<widget name="statuslab" position="260,414" size="760,80" font="Regular;20" halign="center" valign="center" backgroundColor="transpBlack" foregroundColor="unffad31" transparent="1" />
-<widget name="Linconn" position="60,496" size="1160,50" font="Regular;22" halign="center" valign="center" backgroundColor="un9f1313" />
-<widget source="list" render="Listbox" position="60,120" size="1160,252" scrollbarMode="showOnDemand" transparent="1">
-<convert type="TemplatedMultiContent">
-                {"template": [
-                MultiContentEntryText(pos = (40, 1), size = (640, 36), flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 0),
-                MultiContentEntryPixmapAlphaTest(pos = (8, 10), size = (34, 34), png = 1),
-                ],
-                "fonts": [gFont("Regular", 24)],
-                "itemHeight": 36
-                }
-            </convert>
-</widget>
-</screen>
-<!-- AL106 DeliteCCcSh -->
-<screen name="DeliteCCcSh" position="0,0" size="1280,720" title="PE Active Clients" flags="wfNoBorder">
-<ePixmap position="0,0" zPosition="-1" size="1280,720" pixmap="FHD5-Eminem/frame_base-fs8.png" />
-<eLabel text="PE Active Clients" position="80,30" size="800,44" font="RegularAA;36" halign="left" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
-<ePixmap position="1198,118" zPosition="2" size="22,254" pixmap="FHD5-Eminem/scroll.png" alphatest="blend" transparent="1" />
-<widget name="statuslab" position="260,414" size="760,80" font="Regular;20" halign="center" valign="center" backgroundColor="transpBlack" foregroundColor="unffad31" transparent="1" />
-<widget name="Linconn" position="60,496" size="1160,50" font="Regular;22" halign="center" valign="center" backgroundColor="un9f1313" />
-<widget source="list" render="Listbox" position="60,120" size="1160,252" scrollbarMode="showOnDemand" transparent="1">
-<convert type="TemplatedMultiContent">
-                {"template": [
-                MultiContentEntryText(pos = (30, 1), size = (640, 36), flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 0),
-                ],
-                "fonts": [gFont("Regular", 24)],
-                "itemHeight": 36
-                }
-            </convert>
-</widget>
-</screen>
-<!-- AL107 DeliteCCcPr -->
-<screen name="DeliteCCcPr" position="0,0" size="1280,720" title="PE Active Clients" flags="wfNoBorder">
-<ePixmap position="0,0" zPosition="-1" size="1280,720" pixmap="FHD5-Eminem/frame_base-fs8.png" />
-<eLabel text="PE Active Clients" position="80,30" size="800,44" font="RegularAA;36" halign="left" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
-<ePixmap position="1198,118" zPosition="2" size="22,254" pixmap="FHD5-Eminem/scroll.png" alphatest="blend" transparent="1" />
-<widget name="statuslab" position="260,414" size="760,80" font="Regular;20" halign="center" valign="center" backgroundColor="transpBlack" foregroundColor="unffad31" transparent="1" />
-<widget name="Linconn" position="60,496" size="1160,50" font="Regular;22" halign="center" valign="center" backgroundColor="un9f1313" />
-<widget source="list" render="Listbox" position="60,120" size="1160,252" scrollbarMode="showOnDemand" transparent="1">
-<convert type="TemplatedMultiContent">
-                {"template": [
-                MultiContentEntryText(pos = (30, 1), size = (640, 30), flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 0),
-                ],
-                "fonts": [gFont("Regular", 24)],
-                "itemHeight": 36
-                }
-            </convert>
-</widget>
-</screen>
-<!-- AL108 DeliteCCcEnt -->
-<screen name="DeliteCCcEnt" position="0,0" size="1280,720" title="PE Cccam Entitlements Info" flags="wfNoBorder">
-<ePixmap position="0,0" zPosition="-1" size="1280,720" pixmap="FHD5-Eminem/frame_base-fs8.png" />
-<eLabel text="PE Cccam Entitlements Info" position="80,30" size="800,44" font="RegularAA;36" halign="left" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
-<ePixmap position="1198,118" zPosition="2" size="22,360" pixmap="FHD5-Eminem/scroll.png" alphatest="blend" transparent="1" />
-<widget name="infotext" position="60,120" size="1160,358" font="Regular;22" foregroundColor="un999999" backgroundColor="transpBlack" transparent="1" />
-<widget name="Linconn" position="60,482" size="1160,50" font="Regular;22" halign="center" valign="center" backgroundColor="un9f1313" />
-</screen>
-<!-- AL109 DeliteCCCSetup ( 1+1 )-->
-<screen name="DeliteCCcSetup" position="0,0" size="1280,720" title="PE CCcam Info Setup" flags="wfNoBorder">
-<ePixmap position="0,0" zPosition="-1" size="1280,720" pixmap="FHD5-Eminem/frame_base-fs8.png" />
-<eLabel text="PE CCcam Info Setup" position="80,30" size="800,44" font="RegularAA;36" halign="left" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
-<widget name="lab1" position="80,120" size="670,70" font="Regular;24" valign="center" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
-<widget name="config" position="60,240" size="1160,250" scrollbarMode="showOnDemand" transparent="1" />
-<ePixmap position="260,650" size="250,40" pixmap="FHD5-Eminem/buttons/red25.png" alphatest="on" zPosition="1" />
-<widget name="key_red" position="26,650" size="250,40" zPosition="2" font="Regular;24" halign="center" valign="center" backgroundColor="transpBlack" transparent="1" />
-<ePixmap position="770,650" size="250,40" pixmap="FHD5-Eminem/buttons/green25.png" alphatest="on" zPosition="1" />
-<eLabel text="PE Virtual Keyboard" position="770,650" size="250,40" zPosition="2" halign="center" valign="center" font="Regular;24" foregroundColor="un999999" backgroundColor="transpBlack" transparent="1" />
-</screen>
 <!--  AL110 MyTubePlayer -->
 <screen name="MyTubePlayer" position="0,520" size="1280,720" title="PE InfoBar" backgroundColor="transparent2" flags="wfNoBorder">
 <ePixmap position="0,0" zPosition="-1" size="1280,200" pixmap="FHD5-Eminem/moviebar-fs8.png" />
@@ -1922,7 +1615,7 @@ BH178 Default HD - Copyright (C) 2012 GPL-III by BlackHole
 <widget source="session.CurrentService" render="Label" font="Regular;20" position="1095,83" size="55,24" halign="right" foregroundColor="un999999" backgroundColor="transpBlack" transparent="1">
 <convert type="ServiceInfo">VideoWidth</convert>
 </widget>
-<eLabel text="PE x" font="Regular;20" position="1150,83" size="15,24" halign="center" foregroundColor="un999999" backgroundColor="transpBlack" transparent="1" />
+<eLabel text="x" font="Regular;20" position="1150,83" size="15,24" halign="center" foregroundColor="un999999" backgroundColor="transpBlack" transparent="1" />
 <widget source="session.CurrentService" render="Label" font="Regular;20" position="1165,83" size="55,24" halign="left" foregroundColor="un999999" backgroundColor="transpBlack" transparent="1">
 <convert type="ServiceInfo">VideoHeight</convert>
 </widget>
@@ -1942,11 +1635,11 @@ BH178 Default HD - Copyright (C) 2012 GPL-III by BlackHole
 <ePixmap position="82,58" zPosition="1" size="100,100" pixmap="FHD5-Eminem/mp_buttons.png" alphatest="blend" transparent="1" />
 </screen>
 <!--  AL111 MyTubePlayerMainScreen ( 3+1 )-->
-<screen name="MyTubePlayerMainScreen" position="0,0" size="1280,720" title="PE MyTubePlayerMainScreen..." flags="wfNoBorder">
+<screen name="MyTubePlayerMainScreen" position="0,0" size="1280,720" title="PE MyTubePlayerMainScreen" flags="wfNoBorder">
 <ePixmap position="0,0" zPosition="-1" size="1280,720" pixmap="FHD5-Eminem/frame_base-fs8.png" />
 <ePixmap position="958,160" zPosition="-1" size="200,130" pixmap="FHD5-Eminem/menu/mytube.png" alphatest="blend" />
 <ePixmap position="848,168" zPosition="2" size="22,402" pixmap="FHD5-Eminem/scroll.png" alphatest="blend" transparent="1" />
-<eLabel text="PE MyTubePlayerMainScreen..." position="80,30" size="800,44" font="RegularAA;36" halign="left" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
+<eLabel text="PE MyTubePlayerMainScreen" position="80,30" size="800,44" font="RegularAA;36" halign="left" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
 <widget name="config" position="80,120" size="782,28" zPosition="3" scrollbarMode="showNever" transparent="1" />
 <widget source="feedlist" render="Listbox" position="80,170" size="790,400" zPosition="1" scrollbarMode="showOnDemand" transparent="1">
 <convert type="TemplatedMultiContent">
@@ -1982,7 +1675,7 @@ BH178 Default HD - Copyright (C) 2012 GPL-III by BlackHole
 <widget name="key_green" position="362,650" zPosition="2" size="250,40" font="Regular;24" halign="center" foregroundColor="un999999" backgroundColor="black" transparent="1" />
 <widget name="key_yellow" position="668,650" zPosition="2" size="250,40" font="Regular;24" halign="center" foregroundColor="un999999" backgroundColor="black" transparent="1" />
 <eLabel text="PE Virtual Keyboard" position="974,650" size="250,40" zPosition="11" font="Regular;24" halign="center" valign="center" foregroundColor="un999999" backgroundColor="black" transparent="1" />
-<eLabel text="PE  " position="84,634" size="250,30" zPosition="2" font="Regular;24" halign="center" foregroundColor="un999999" backgroundColor="black" transparent="1" />
+<eLabel text=" " position="84,634" size="250,30" zPosition="2" font="Regular;24" halign="center" foregroundColor="un999999" backgroundColor="black" transparent="1" />
 <widget name="thumbnail" position="0,0" size="100,75" alphatest="on" /> # fake entry for dynamic thumbnail resizing, currently there is no other way doing this.
 		<widget name="HelpWindow" position="156,510" size="1,1" zPosition="10" alphatest="on" transparent="1" />
 <widget name="VKeyIcon" position="0,0" size="0,0" />
@@ -2017,9 +1710,9 @@ BH178 Default HD - Copyright (C) 2012 GPL-III by BlackHole
 </widget>
 </screen>
 <!--  AL114 MyTubeVideoHelpScreen ( 1 )-->
-<screen name="MyTubeVideoHelpScreen" position="0,0" size="1280,720" title="PE MyTubePlayerHelpScreen..." flags="wfNoBorder">
+<screen name="MyTubeVideoHelpScreen" position="0,0" size="1280,720" title="PE MyTubePlayerHelpScreen" flags="wfNoBorder">
 <ePixmap position="0,0" zPosition="-1" size="1280,720" pixmap="FHD5-Eminem/frame_base-fs8.png" />
-<eLabel text="PE MyTubePlayerHelpScreen..." position="80,30" size="800,44" font="RegularAA;36" halign="left" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
+<eLabel text="PE MyTubePlayerHelpScreen" position="80,30" size="800,44" font="RegularAA;36" halign="left" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
 <widget name="detailtext" position="60,120" size="760,450" zPosition="10" font="Regular;22" halign="left" valign="top" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
 <ePixmap position="515,650" size="250,40" pixmap="FHD5-Eminem/buttons/red25.png" alphatest="on" zPosition="1" />
 <widget name="key_red" position=" 515,650" zPosition="2" size="250,40" font="Regular;24" halign="center" valign="center" foregroundColor="un999999" backgroundColor="black" transparent="1" />
@@ -2120,7 +1813,7 @@ BH178 Default HD - Copyright (C) 2012 GPL-III by BlackHole
 <screen name="CrossEPG_Providers" position="0,0" size="1280,720" title="PE CrossEPG - Providers" backgroundColor="transparent" flags="wfNoBorder">
 <ePixmap position="0,0" zPosition="-1" size="1280,720" pixmap="FHD5-Eminem/frame_base-fs8.png" />
 <ePixmap position="1198,118" zPosition="2" size="22,482" pixmap="FHD5-Eminem/scroll.png" alphatest="blend" transparent="1" />
-<eLabel text="PE Provider XMLTV-OpenTV-XEPGDB-MHW2-M7-RAI" position="60,30" zPosition="2" size="900,34" font="RegularAA;26" halign="left" transparent="1" foregroundColor="un5395c3" backgroundColor="transpBlack" />
+<eLabel text="Provider XMLTV-OpenTV-XEPGDB-MHW2-M7-RAI" position="60,30" zPosition="2" size="900,34" font="RegularAA;26" halign="left" transparent="1" foregroundColor="un5395c3" backgroundColor="transpBlack" />
 <widget source="list" render="Listbox" position="60,120" size="1160,480" scrollbarMode="showOnDemand" transparent="1">
 <convert type="TemplatedMultiContent">
 				{"template": [
@@ -2169,9 +1862,9 @@ BH178 Default HD - Copyright (C) 2012 GPL-III by BlackHole
 </screen>
 <!--##### AM100 NETWORK-WLAN   #####-->
 <!-- AM101 Network Adapter Selection ( 3 )-->
-<screen name="NetworkAdapterSelection" position="0,0" size="1280,720" title="PE Select Network Adapter" flags="wfNoBorder">
+<screen name="NetworkAdapterSelection" position="0,0" size="1280,720" title="Select Network Adapter" flags="wfNoBorder">
 <ePixmap position="0,0" zPosition="-1" size="1280,720" pixmap="FHD5-Eminem/frame_base-fs8.png" />
-<eLabel text="PE Select Network Adapter" position="80,30" size="800,44" font="RegularAA;36" halign="left" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
+<eLabel text="Select Network Adapter" position="80,30" size="800,44" font="RegularAA;36" halign="left" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
 <widget source="list" render="Listbox" position="60,120" size="1160,344" zPosition="10" scrollbarMode="showOnDemand" transparent="1">
 <convert type="TemplatedMultiContent">
 <!-- iface, name, description, interfacepng, defaultpng, activepng, divpng -->
@@ -2222,9 +1915,9 @@ BH178 Default HD - Copyright (C) 2012 GPL-III by BlackHole
 <widget name="VKeyIcon" pixmap="FHD5-Eminem/buttons/key_text.png" position="30,370" zPosition="10" size="35,25" transparent="1" alphatest="on" />
 </screen>
 <!-- AM103 Adapter Setup Configuration (1) -->
-<screen name="AdapterSetupConfiguration" position="0,0" size="1280,720" title="PE Network Configuration..." flags="wfNoBorder">
+<screen name="AdapterSetupConfiguration" position="0,0" size="1280,720" title="PE Network Configuration" flags="wfNoBorder">
 <ePixmap position="0,0" zPosition="-1" size="1280,720" pixmap="FHD5-Eminem/frame_base-fs8.png" />
-<eLabel text="PE Network Configuration..." position="80,30" size="800,44" font="RegularAA;36" halign="left" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
+<eLabel text="PE Network Configuration" position="80,30" size="800,44" font="RegularAA;36" halign="left" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
 <widget source="IFtext" render="Label" position="60,120" size="140,24" zPosition="10" font="Regular;24" transparent="1" />
 <widget source="IF" render="Label" position="175,120" size="400,24" zPosition="10" font="Regular;24" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
 <widget name="menulist" position="60,170" size="1160,375" scrollbarMode="showOnDemand" transparent="1" />
@@ -2248,9 +1941,9 @@ BH178 Default HD - Copyright (C) 2012 GPL-III by BlackHole
 <widget source="key_yellow" render="Label" position="896,650" size="250,40" zPosition="2" font="Regular;24" halign="center" valign="center" foregroundColor="un999999" transparent="1" />
 </screen>
 <!--  AM105 Network Adapter Test   ( 3 )-->
-<screen name="NetworkAdapterTest" position="0,0" size="1280,720" title="PE Network test..." flags="wfNoBorder">
+<screen name="NetworkAdapterTest" position="0,0" size="1280,720" title="PE Network test" flags="wfNoBorder">
 <ePixmap position="0,0" zPosition="-1" size="1280,720" pixmap="FHD5-Eminem/frame_base-fs8.png" />
-<eLabel text="PE Network test..." position="80,30" size="800,44" font="RegularAA;36" halign="left" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
+<eLabel text="PE Network test" position="80,30" size="800,44" font="RegularAA;36" halign="left" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
 <widget name="Adaptertext" position="60,130" size="650,25" zPosition="1" font="Regular;22" foregroundColor="grey" transparent="1" />
 <widget name="Adapter" position="60,160" size="650,25" zPosition="1" font="Regular;22" foregroundColors="#8c8c93,#f23d21,#1cff1c" transparent="1" />
 <widget name="AdapterInfo_OK" position="830,145" size="32,32" zPosition="2" pixmap="FHD5-Eminem/icons/lock_on1.png" alphatest="blend" />
@@ -2293,9 +1986,9 @@ BH178 Default HD - Copyright (C) 2012 GPL-III by BlackHole
 <widget name="InfoTextBorder" position="0,0" size="0,0" />
 </screen>
 <!-- AM106  WlanSelection ( 2 )-->
-<screen name="WlanSelection" position="0,0" size="1280,720" title="PE Wireless Network Adapter Selection..." flags="wfNoBorder">
+<screen name="WlanSelection" position="0,0" size="1280,720" title="PE Wireless Network Adapter Selection" flags="wfNoBorder">
 <ePixmap position="0,0" zPosition="-1" size="1280,720" pixmap="FHD5-Eminem/frame_base-fs8.png" />
-<eLabel text="PE Wireless Network Adapter Selection..." position="80,30" size="800,44" font="RegularAA;36" halign="left" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
+<eLabel text="PE Wireless Network Adapter Selection" position="80,30" size="800,44" font="RegularAA;36" halign="left" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
 <widget name="menulist" position="60,120" size="1160,150" zPosition="2" enableWrapAround="1" scrollbarMode="showOnDemand" transparent="1" />
 <widget source="description" render="Label" position="370,520" size="540,50" font="Regular;24" halign="center" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
 <ePixmap pixmap="FHD5-Eminem/buttons/red25.png" position="260,650" size="250,40" alphatest="blend" />
@@ -2304,9 +1997,9 @@ BH178 Default HD - Copyright (C) 2012 GPL-III by BlackHole
 <widget source="key_green" render="Label" position="770,650" size="250,40" zPosition="1" font="Regular;24" halign="center" valign="center" backgroundColor="transpBlack" transparent="1" />
 </screen>
 <!-- AM107 WlanSetup ( 2 )-->
-<screen name="WlanSetup" position="0,0" size="1280,720" title="PE Wireless Network Setup Menu..." flags="wfNoBorder">
+<screen name="WlanSetup" position="0,0" size="1280,720" title="PE Wireless Network Setup Menu" flags="wfNoBorder">
 <ePixmap position="0,0" zPosition="-1" size="1280,720" pixmap="FHD5-Eminem/frame_base-fs8.png" />
-<eLabel text="PE Wireless Net Setup Menu..." position="80,30" size="800,44" font="RegularAA;36" halign="left" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
+<eLabel text="PE Wireless Net Setup Menu" position="80,30" size="800,44" font="RegularAA;36" halign="left" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
 <widget name="menulist" position="60,120" size="1160,150" zPosition="2" enableWrapAround="1" scrollbarMode="showOnDemand" transparent="1" />
 <widget source="description" render="Label" position="370,520" size="540,50" font="Regular;20" halign="center" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
 <ePixmap pixmap="FHD5-Eminem/buttons/red25.png" position="260,650" size="250,40" alphatest="blend" />
@@ -2315,24 +2008,24 @@ BH178 Default HD - Copyright (C) 2012 GPL-III by BlackHole
 <widget source="key_green" render="Label" position="770,650" size="250,40" zPosition="1" font="Regular;24" halign="center" valign="center" backgroundColor="transpBlack" transparent="1" />
 </screen>
 <!--AM108 WlanConfig -->
-<screen name="WlanConfig" position="0,0" size="1280,720" title="PE Wireless Network Configuration..." flags="wfNoBorder">
+<screen name="WlanConfig" position="0,0" size="1280,720" title="PE Wireless Network Configuration" flags="wfNoBorder">
 <ePixmap position="0,0" zPosition="-1" size="1280,720" pixmap="FHD5-Eminem/frame_base-fs8.png" />
-<eLabel text="PE Wireless Network Configuration..." position="80,30" size="800,44" font="RegularAA;36" halign="left" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
+<eLabel text="PE Wireless Network Configuration" position="80,30" size="800,44" font="RegularAA;36" halign="left" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
 <!--	<ePixmap position="1198,118" zPosition="2" size="22,202" pixmap="FHD5-Eminem/scroll.png" alphatest="blend" transparent="1" />-->
 <widget name="config" position="60,120" size="1160,200" zPosition="2" enableWrapAround="1" scrollbarMode="showOnDemand" transparent="1" />
-<eLabel text="PE IP Address : " position="60,350" size="150,30" font="Regular;20" backgroundColor="transpBlack" transparent="1" />
+<eLabel text="IP Address : " position="60,350" size="150,30" font="Regular;20" backgroundColor="transpBlack" transparent="1" />
 <widget source="ipaddress" render="Label" position="140,350" halign="right" size="200,30" font="Regular;24" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
-<eLabel text="PE NetMask : " position="60,380" size="130,30" font="Regular;20" backgroundColor="transpBlack" transparent="1" />
+<eLabel text="NetMask : " position="60,380" size="130,30" font="Regular;20" backgroundColor="transpBlack" transparent="1" />
 <widget source="netmask" render="Label" position="140,380" halign="right" size="200,30" font="Regular;24" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
-<eLabel text="PE Gateway : " position="60,410" size="130,30" font="Regular;22" backgroundColor="transpBlack" transparent="1" />
+<eLabel text="Gateway : " position="60,410" size="130,30" font="Regular;22" backgroundColor="transpBlack" transparent="1" />
 <widget source="gateway" render="Label" position="140,410" halign="right" size="200,30" font="Regular;24" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
 <widget name="HelpWindow" position="130,450" size="1,1" zPosition="10" alphatest="on" transparent="1" />
 <widget name="VKeyIcon" position="0,0" size="0,0" />
 </screen>
 <!--AM109 WlanScanAp ( 3 )-->
-<screen name="WlanScanAp" position="0,0" size="1280,720" title="PE Wireless Network AP Scan..." flags="wfNoBorder">
+<screen name="WlanScanAp" position="0,0" size="1280,720" title="PE Wireless Network AP Scan" flags="wfNoBorder">
 <ePixmap position="0,0" zPosition="-1" size="1280,720" pixmap="FHD5-Eminem/frame_base-fs8.png" />
-<eLabel text="PE Wireless Network AP Scan..." position="80,30" size="800,44" font="RegularAA;36" halign="left" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
+<eLabel text="PE Wireless Network AP Scan" position="80,30" size="800,44" font="RegularAA;36" halign="left" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
 <widget name="menulist" position="60,120" size="1160,150" zPosition="2" enableWrapAround="1" scrollbarMode="showOnDemand" transparent="1" />
 <widget source="Address" render="Label" position="60,320" size="400,30" font="Regular;24" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
 <widget source="ESSID" render="Label" position="60,350" size="400,30" font="Regular;24" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
@@ -2348,15 +2041,15 @@ BH178 Default HD - Copyright (C) 2012 GPL-III by BlackHole
 <widget source="key_blue" render="Label" position="896,650" size="250,40" zPosition="1" font="Regular;24" halign="center" valign="center" backgroundColor="transpBlack" transparent="1" />
 </screen>
 <!-- AM110 WlanStatus ( 1 )-->
-<screen name="Wlanstatus" position="0,0" size="1280,720" title="PE Wireless Network Status..." flags="wfNoBorder">
+<screen name="Wlanstatus" position="0,0" size="1280,720" title="PE Wireless Network Status" flags="wfNoBorder">
 <ePixmap position="0,0" zPosition="-1" size="1280,720" pixmap="FHD5-Eminem/frame_base-fs8.png" />
-<eLabel text="PE Wireless Network Status..." position="80,30" size="800,44" font="RegularAA;36" halign="left" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
+<eLabel text="PE Wireless Network Status" position="80,30" size="800,44" font="RegularAA;36" halign="left" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
 <widget source="status" render="Label" position="60,120" size="540,500" font="Regular;20" halign="left" backgroundColor="transpBlack" transparent="1" />
 <ePixmap pixmap="FHD5-Eminem/buttons/red25.png" position="515,650" size="250,40" alphatest="blend" />
 <widget source="key_red" render="Label" position="515,658" size="250,40" zPosition="1" font="Regular;24" halign="center" valign="center" backgroundColor="transpBlack" transparent="1" />
 </screen>
 <!-- AM111 Network Wizard -->
-<screen name="NetworkWizard" position="0,0" size="1280,720" title="PE Welcome..." flags="wfNoBorder">
+<screen name="NetworkWizard" position="0,0" size="1280,720" title="PE Welcome" flags="wfNoBorder">
 <ePixmap position="0,0" zPosition="-1" size="1280,720" pixmap="FHD5-Eminem/frame_base-fs8.png" />
 <eLabel text="PE Welcome...Net" position="80,30" size="800,44" font="RegularAA;36" halign="left" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
 <widget name="wizard" pixmap="FHD5-Eminem/wizard.png" position="60,120" zPosition="10" size="140,188" transparent="1" alphatest="on" />
@@ -2469,7 +2162,7 @@ BH178 Default HD - Copyright (C) 2012 GPL-III by BlackHole
 <widget source="session.CurrentService" render="Label" font="Regular;20" position="1095,83" size="55,24" halign="right" foregroundColor="un999999" backgroundColor="transpBlack" transparent="1">
 <convert type="ServiceInfo">VideoWidth</convert>
 </widget>
-<eLabel text="PE x" font="Regular;20" position="1150,83" size="15,24" halign="center" foregroundColor="un999999" backgroundColor="transpBlack" transparent="1" />
+<eLabel text="x" font="Regular;20" position="1150,83" size="15,24" halign="center" foregroundColor="un999999" backgroundColor="transpBlack" transparent="1" />
 <widget source="session.CurrentService" render="Label" font="Regular;20" position="1165,83" size="55,24" halign="left" foregroundColor="un999999" backgroundColor="transpBlack" transparent="1">
 <convert type="ServiceInfo">VideoHeight</convert>
 </widget>
@@ -2493,9 +2186,9 @@ BH178 Default HD - Copyright (C) 2012 GPL-III by BlackHole
 <widget name="menu" position="20,20" size="710,300" scrollbarMode="showOnDemand" transparent="1" />
 </screen>
 <!-- AN106 Location Box  ( 4 )  -->
-<screen name="LocationBox" position="0,0" size="1280,720" title="PE Select Location Box" flags="wfNoBorder">
+<screen name="LocationBox" position="0,0" size="1280,720" title="Select Location Box" flags="wfNoBorder">
 <ePixmap pixmap="FHD5-Eminem/frame_base-fs8.png" zPosition="-1" position="0,0" size="1280,720" alphatest="on" />
-<eLabel text="PE Select Location Box" position="80,30" zPosition="2" size="800,44" font="RegularAA;36" halign="left" transparent="1" foregroundColor="un5395c3" backgroundColor="transpBlack" />
+<eLabel text="Select Location Box" position="80,30" zPosition="2" size="800,44" font="RegularAA;36" halign="left" transparent="1" foregroundColor="un5395c3" backgroundColor="transpBlack" />
 <widget name="text" position="60,120" size="1090,27" font="Regular;24" foregroundColor="un5395c3" backgroundColor="transpBlack" />
 <!--	<eLabel position="60,150" size="1160,28" backgroundColor="darkgrey" />-->
 <widget name="target" position="60,150" size="1160,28" valign="left" font="Regular;24" foregroundColor="grey" />
@@ -2513,11 +2206,11 @@ BH178 Default HD - Copyright (C) 2012 GPL-III by BlackHole
 <widget name="key_blue" position="974,650" zPosition="3" size="250,40" font="Regular;21" halign="center" valign="center" backgroundColor="transpBlack" transparent="1" />
 </screen>
 <!-- AN107 Movie Selection - Recorded files... /hdd/movie ( 4 )-->
-<screen name="MovieSelection" position="0,0" size="1280,720" title="PE Select a movie" flags="wfNoBorder">
+<screen name="MovieSelection" position="0,0" size="1280,720" title="Select a movie" flags="wfNoBorder">
 <ePixmap pixmap="FHD5-Eminem/frame_base-fs8.png" position="0,0" zPosition="-3" size="1280,720" />
 <ePixmap position="890,240" zPosition="-1" size="300,14" pixmap="FHD5-Eminem/chan_p1_bar.png" alphatest="on" />
 <ePixmap position="808,118" zPosition="6" size="22,380" pixmap="FHD5-Eminem/scroll.png" alphatest="blend" transparent="1" />
-<eLabel text="PE Recorded filess... /hdd/movie" position="80,30" zPosition="2" size="800,44" font="RegularAA;36" halign="left" transparent="1" foregroundColor="un5395c3" backgroundColor="transpBlack" />
+<eLabel text="Recorded filess... /hdd/movie" position="80,30" zPosition="2" size="800,44" font="RegularAA;36" halign="left" transparent="1" foregroundColor="un5395c3" backgroundColor="transpBlack" />
 <widget name="waitingtext" position="80,400" size="760,30" zPosition="4" font="Regular;22" halign="center" valign="center" transparent="1" />
 <widget name="list" position="70,120" size="760,375" scrollbarMode="showOnDemand" transparent="1" />
 <widget name="freeDiskSpace" position="80,560" zPosition="4" size="760,25" font="Regular;22" halign="left" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
@@ -2622,7 +2315,7 @@ BH178 Default HD - Copyright (C) 2012 GPL-III by BlackHole
 <widget name="config" position="20,206" size="1090,228" scrollbarMode="showOnDemand" transparent="1" />
 </screen>
 <!-- AN112 DVD Burn-DVDMovieSelection  ( 3 )-->
-<screen name="DVDMovieSelection" position="center,center" size="1130,520" title="PE Select a movie">
+<screen name="DVDMovieSelection" position="center,center" size="1130,520" title="Select a movie">
 <ePixmap pixmap="FHD5-Eminem/buttons/red25.png" position="95,460" zPosition="1" size="250,40" alphatest="on" />
 <ePixmap pixmap="FHD5-Eminem/buttons/green25.png" position="440,460" zPosition="1" size="250,40" alphatest="on" />
 <ePixmap pixmap="FHD5-Eminem/buttons/yellow25.png" position="785,460" zPosition="1" size="250,40" alphatest="on" />
@@ -2685,7 +2378,7 @@ BH178 Default HD - Copyright (C) 2012 GPL-III by BlackHole
 </widget>
 <widget name="Timeline" position="479,587" size="696,20" zPosition="3" backgroundColor="un808888" pointer="FHD5-Eminem/position_arrow.png:3,5" foregroundColor="black" />
 <ePixmap pixmap="FHD5-Eminem/mp_buttons.png" position="100,582" size="100,100" zPosition="1" alphatest="blend" transparent="1" />
-<eLabel text="PE OK = Menu" position="1060,630" size="140,22" zPosition="1" font="Regular;20" backgroundColor="black" transparent="1" />
+<eLabel text="OK = Menu" position="1060,630" size="140,22" zPosition="1" font="Regular;20" backgroundColor="black" transparent="1" />
 </screen>
 <!-- AN115 TitleCutter -->
 <screen name="TitleCutter" position="0,0" size="1280,720" title="PE Cutlist editor" flags="wfNoBorder">
@@ -2712,7 +2405,7 @@ BH178 Default HD - Copyright (C) 2012 GPL-III by BlackHole
 </widget>
 <widget name="Timeline" position="479,587" size="696,20" zPosition="3" backgroundColor="un808888" pointer="FHD5-Eminem/position_arrow.png:3,5" foregroundColor="transpBlack" />
 <ePixmap pixmap="FHD5-Eminem/mp_buttons.png" position="100,582" size="100,100" zPosition="1" alphatest="blend" transparent="1" />
-<eLabel text="PE OK = Menu" position="1060,630" size="140,22" zPosition="1" font="Regular;20" backgroundColor="black" transparent="1" />
+<eLabel text="OK = Menu" position="1060,630" size="140,22" zPosition="1" font="Regular;20" backgroundColor="black" transparent="1" />
 </screen>
 <!-- AN116 DVD Player  -->
 <screen name="DVDPlayer" position="0,520" size="1280,720" title="PE InfoBar" backgroundColor="transparent2" flags="wfNoBorder">
@@ -2826,7 +2519,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
 <screen name="HelpMenu" position="0,0" size="1280,720" title="PE Menu" flags="wfNoBorder">
 <ePixmap position="0,0" zPosition="-1" size="1280,720" pixmap="FHD5-Eminem/frame_base-fs8.png" />
 <ePixmap position="1058,118" zPosition="2" size="22,458" pixmap="FHD5-Eminem/scroll.png" alphatest="blend" transparent="1" />
-<eLabel text="PE Help..." position="80,30" size="800,44" font="RegularAA;36" halign="left" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
+<eLabel text="PE Help" position="80,30" size="800,44" font="RegularAA;36" halign="left" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
 <widget name="rc" position="1080,114" size="154,500" pixmaps="skin_default/rc.png,skin_default/rcold.png" zPosition="10" alphatest="on" />
 <widget name="long_key" position="540,600" size="300,30" font="Regular;24" halign="center" foregroundColor="grey" backgroundColor="transpBlack" transparent="1" />
 <widget name="list" position="60,120" size="1020,456" scrollbarMode="showOnDemand" transparent="1" />
@@ -2940,7 +2633,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
 </widget>
 </screen>
 <!-- AP117 Console  -->
-<screen name="Console" position="center,center" size="1130,520" title="PE Command execution...">
+<screen name="Console" position="center,center" size="1130,520" title="PE Command execution">
 <widget name="text" position="20,20" size="1090,480" font="Console;21" />
 </screen>
 <!--AP118 clock Display  -->
@@ -2950,9 +2643,9 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
 <widget name="title" position="20,130" size="300,50" />
 </screen>
 <!--  AP119 Default Wizard -->
-<screen name="DefaultWizard" position="0,0" size="1280,720" title="PE Welcome..." flags="wfNoBorder">
+<screen name="DefaultWizard" position="0,0" size="1280,720" title="PE Welcome" flags="wfNoBorder">
 <ePixmap position="0,0" zPosition="-1" size="1280,720" pixmap="FHD5-Eminem/frame_base-fs8.png" />
-<eLabel text="PE Welcome..." position="80,30" size="800,44" font="RegularAA;36" halign="left" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
+<eLabel text="PE Welcome" position="80,30" size="800,44" font="RegularAA;36" halign="left" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
 <widget name="wizard" pixmap="FHD5-Eminem/wizard.png" position="80,120" zPosition="10" size="140,188" transparent="1" alphatest="on" />
 <widget name="text" position="320,150" size="340,330" font="Regular;22" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
 <ePixmap pixmap="FHD5-Eminem/buttons/button_red.png" position="320,120" size="15,16" alphatest="on" />
@@ -2963,9 +2656,9 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
 <widget name="config" position="60,400" size="1160,200" scrollbarMode="showOnDemand" transparent="1" />
 </screen>
 <!-- AP120 LanguageWizard -->
-<screen name="LanguageWizard" position="0,0" size="1280,720" title="PE Welcome..." flags="wfNoBorder">
+<screen name="LanguageWizard" position="0,0" size="1280,720" title="PE Welcome" flags="wfNoBorder">
 <ePixmap pixmap="FHD5-Eminem/frame_base-fs8.png" zPosition="-1" position="0,0" size="1280,720" alphatest="on" />
-<eLabel text="PE Welcome..." position="80,30" size="800,44" font="RegularAA;36" halign="left" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
+<eLabel text="PE Welcome" position="80,30" size="800,44" font="RegularAA;36" halign="left" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
 <widget name="wizard" pixmap="FHD5-Eminem/wizard.png" position="80,120" zPosition="10" size="140,188" transparent="1" alphatest="on" />
 <widget name="text" position="320,150" size="340,330" font="Regular;22" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
 <ePixmap position="1198,358" zPosition="2" size="22,202" pixmap="FHD5-Eminem/scroll.png" alphatest="blend" transparent="1" />
@@ -3026,9 +2719,9 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
 <!--AP127 Standby -->
 <screen name="Standby" position="0,0" size="1280,720" title="PE Standby" flags="wfNoBorder" />
 <!-- AP128 VideoWizard -->
-<screen name="VideoWizard" position="0,0" size="1280,720" title="PE Select Video Output..." backgroundColor="black" flags="wfNoBorder">
+<screen name="VideoWizard" position="0,0" size="1280,720" title="Select Video Output" backgroundColor="black" flags="wfNoBorder">
 <ePixmap position="0,0" zPosition="-1" size="1280,720" pixmap="FHD5-Eminem/frame_base-fs8.png" />
-<eLabel text="PE Select Video Output..." position="80,30" size="800,44" font="RegularAA;36" halign="left" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
+<eLabel text="Select Video Output" position="80,30" size="800,44" font="RegularAA;36" halign="left" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
 <widget name="wizard" pixmap="FHD5-Eminem/wizard.png" position="80,120" zPosition="10" size="140,188" transparent="1" alphatest="on" />
 <widget name="text" position="320,150" size="340,330" font="Regular;22" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
 <ePixmap pixmap="FHD5-Eminem/buttons/button_red.png" position="320,120" size="15,16" alphatest="on" />
@@ -3039,7 +2732,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
 <widget name="config" position="80,400" size="690,200" scrollbarMode="showOnDemand" transparent="1" />
 </screen>
 <!-- AP129 Start Wizard -->
-<screen name="StartWizard" position="0,0" size="1280,720" title="PE Welcome..." flags="wfNoBorder">
+<screen name="StartWizard" position="0,0" size="1280,720" title="PE Welcome" flags="wfNoBorder">
 <ePixmap position="0,0" zPosition="-1" size="1280,720" pixmap="FHD5-Eminem/frame_base-fs8.png" />
 <eLabel text="PE Welcome...Start" position="80,30" size="800,44" font="RegularAA;36" halign="left" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
 <widget name="wizard" pixmap="FHD5-Eminem/wizard.png" position="80,120" zPosition="10" size="140,188" transparent="1" alphatest="on" />
@@ -3154,9 +2847,9 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
 <widget name="config" position="20,20" size="910,260" scrollbarMode="showOnDemand" transparent="1" />
 </screen>
 <!-- AP139 Dream Package Wizard -->
-<screen name="DreamPackageWizard" position="280,70" size="1280,720" title="PE Welcome..." flags="wfNoBorder">
+<screen name="DreamPackageWizard" position="280,70" size="1280,720" title="PE Welcome" flags="wfNoBorder">
 <ePixmap position="0,0" zPosition="-1" size="1280,720" pixmap="FHD5-Eminem/frame_base-fs8.png" />
-<eLabel text="PE Welcome..." position="80,30" size="800,44" font="RegularAA;36" halign="left" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
+<eLabel text="PE Welcome" position="80,30" size="800,44" font="RegularAA;36" halign="left" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
 <widget name="wizard" pixmap="FHD5-Eminem/wizard.png" position="80,120" zPosition="10" size="140,188" transparent="1" alphatest="on" />
 <widget name="text" position="320,150" size="340,330" font="Regular;22" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
 <ePixmap pixmap="FHD5-Eminem/buttons/button_red.png" position="320,120" size="15,16" alphatest="on" />
@@ -3211,10 +2904,10 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
 <widget source="key_yellow" render="Label" position="896,650" size="250,40" zPosition="2" font="Regular;24" halign="center" valign="center" backgroundColor="black" transparent="1" />
 </screen>
 <!-- AP144 CAidSelect ( 2 )-->
-<screen name="CAidSelect" position="0,0" size="1280,720" title="PE select CAId's" flags="wfNoBorder">
+<screen name="CAidSelect" position="0,0" size="1280,720" title="select CAId's" flags="wfNoBorder">
 <ePixmap position="0,0" zPosition="-1" size="1280,720" pixmap="FHD5-Eminem/frame_base-fs8.png" />
 <ePixmap position="1198,118" zPosition="3" size="22,312" pixmap="FHD5-Eminem/scroll.png" alphatest="blend" transparent="1" />
-<eLabel text="PE select CAId's" position="80,30" size="800,44" font="RegularAA;36" halign="left" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
+<eLabel text="select CAId's" position="80,30" size="800,44" font="RegularAA;36" halign="left" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
 <widget name="list" position="60,120" size="1160,310" zPosition="3" scrollbarMode="showOnDemand" transparent="1" />
 <ePixmap position="260,650" size="250,40" pixmap="FHD5-Eminem/buttons/red25.png" alphatest="on" zPosition="1" />
 <ePixmap position="770,650" size="250,40" pixmap="FHD5-Eminem/buttons/green25.png" alphatest="on" zPosition="1" />
@@ -3222,11 +2915,11 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
 <widget source="key_green" render="Label" position="770,650" zPosition="2" size="250,40" font="Regular;24" halign="center" valign="center" backgroundColor="black" transparent="1" />
 </screen>
 <!--AP145 myProviderSelection ( 4 )-->
-<screen name="myProviderSelection" position="0,0" size="1280,720" title="PE Select provider to add..." flags="wfNoBorder">
+<screen name="myProviderSelection" position="0,0" size="1280,720" title="Select provider to add" flags="wfNoBorder">
 <ePixmap position="0,0" zPosition="-1" size="1280,720" pixmap="FHD5-Eminem/frame_base-fs8.png" />
 <ePixmap position="0,650" zPosition="1" size="1280,40" pixmap="FHD5-Eminem/buttons4.png" alphatest="blend" />
 <ePixmap position="1198,118" zPosition="3" size="22,425" pixmap="FHD5-Eminem/scroll.png" alphatest="blend" transparent="1" />
-<eLabel text="PE Select provider to add..." position="80,30" size="800,44" font="RegularAA;36" halign="left" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
+<eLabel text="Select provider to add" position="80,30" size="800,44" font="RegularAA;36" halign="left" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
 <widget name="list" position="60,120" size="1160,420" zPosition="3" scrollbarMode="showOnDemand" transparent="1" />
 <widget source="key_red" render="Label" position="56,650" size="250,40" zPosition="2" font="Regular;24" halign="center" valign="center" backgroundColor="transpBlack" transparent="1" />
 <widget source="key_green" render="Label" position="362,650" size="250,40" zPosition="2" font="Regular;24" halign="center" valign="center" backgroundColor="transpBlack" transparent="1" />
@@ -3234,11 +2927,11 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
 <widget source="key_blue" render="Label" position="974,650" size="250,40" zPosition="2" font="Regular;24" halign="center" valign="center" backgroundColor="transpBlack" transparent="1" />
 </screen>
 <!-- AP146 myChannelSelection ( 4 )-->
-<screen name="myChannelSelection" position="0,0" size="1280,720" title="PE Select service to add..." flags="wfNoBorder">
+<screen name="myChannelSelection" position="0,0" size="1280,720" title="Select service to add" flags="wfNoBorder">
 <ePixmap position="0,0" zPosition="-1" size="1280,720" pixmap="FHD5-Eminem/frame_base-fs8.png" />
 <ePixmap position="0,650" zPosition="1" size="1280,40" pixmap="FHD5-Eminem/buttons4.png" alphatest="blend" />
 <ePixmap position="1198,118" zPosition="3" size="22,425" pixmap="FHD5-Eminem/scroll.png" alphatest="blend" transparent="1" />
-<eLabel text="PE Select service to add..." position="80,30" size="800,44" font="RegularAA;36" halign="left" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
+<eLabel text="Select service to add" position="80,30" size="800,44" font="RegularAA;36" halign="left" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
 <widget name="list" position="60,120" size="1160,420" zPosition="3" scrollbarMode="showOnDemand" transparent="1" />
 <widget source="key_red" render="Label" position="56,650" size="250,40" zPosition="2" font="Regular;24" halign="center" valign="center" backgroundColor="transpBlack" transparent="1" />
 <widget source="key_green" render="Label" position="362,650" size="250,40" zPosition="2" font="Regular;24" halign="center" valign="center" backgroundColor="transpBlack" transparent="1" />
@@ -3257,7 +2950,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
 </screen>
 <!-- ##### AQ100 SOFTWARE MANAGEMENT  (software management) ##### -->
 <!--AQ101  Update Plugin Menu  ( 1 )-->
-<screen name="UpdatePluginMenu" position="0,0" size="1280,720" title="PE Softwaremanager..." flags="wfNoBorder">
+<screen name="UpdatePluginMenu" position="0,0" size="1280,720" title="PE Softwaremanager" flags="wfNoBorder">
 <ePixmap position="0,0" zPosition="-1" size="1280,720" pixmap="FHD5-Eminem/frame_base-fs8.png" />
 <eLabel text="PE Software Management" position="80,30" size="800,44" font="RegularAA;36" halign="left" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
 <ePixmap pixmap="FHD5-Eminem/buttons/red25.png" position="515,650" size="250,40" alphatest="on" zPosition="1" />
@@ -3361,14 +3054,14 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
 <widget source="status" render="Label" position="10,100" size="680,100" font="Regular;20" halign="center" valign="center" backgroundColor="un25062748" transparent="1" />
 </screen>
 <!-- AQ106 IPKG -->
-<screen name="Ipkg" position="center,center" size="650,200" title="PE Installing Software...">
+<screen name="Ipkg" position="center,center" size="650,200" title="PE Installing Software">
 <widget name="activityslider" position="60,10" size="530,5" pixmap="FHD5-Eminem/progress_small.png" />
 <widget name="package" position="60,30" size="550,20" font="Regular;18" />
 <widget name="status" position="60,60" size="550,45" font="Regular;18" />
 <widget name="slider" position="60,120" size="530,15" pixmap="FHD5-Eminem/progress_big.png" borderWidth="2" borderColor="un5395c3" />
 </screen>
 <!-- AQ107 IPKGMenu  ( 2 )-->
-<screen name="IPKGMenu" position="center,center" size="750,520" title="PE Select upgrade source to edit.">
+<screen name="IPKGMenu" position="center,center" size="750,520" title="Select upgrade source to edit">
 <ePixmap position="83,460" size="250,40" pixmap="FHD5-Eminem/buttons/red25.png" alphatest="on" zPosition="1" />
 <ePixmap position="416,460" size="250,40" pixmap="FHD5-Eminem/buttons/green25.png" alphatest="on" zPosition="1" />
 <widget source="key_red" render="Label" position="83,460" zPosition="2" size="250,40" font="Regular;24" halign="center" valign="center" backgroundColor="transpBlack" transparent="1" />
@@ -3376,7 +3069,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
 <widget name="filelist" position="20,20" size="710,320" scrollbarMode="showOnDemand" transparent="1" />
 </screen>
 <!-- AQ108 IPKGSource  ( 2 )-->
-<screen name="IPKGSource" position="center,center" size="750,240" title="PE Edit upgrade source url.">
+<screen name="IPKGSource" position="center,center" size="750,240" title="PE Edit upgrade source url">
 <ePixmap position="83,180" size="250,40" pixmap="FHD5-Eminem/buttons/red25.png" alphatest="on" zPosition="1" />
 <ePixmap position="416,180" size="250,40" pixmap="FHD5-Eminem/buttons/green25.png" alphatest="on" zPosition="1" />
 <widget source="key_red" render="Label" position="83,180" zPosition="2" size="250,40" font="Regular;24" halign="center" valign="center" backgroundColor="transpBlack" transparent="1" />
@@ -3429,11 +3122,11 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
 <widget name="config" position="60,400" size="1160,200" scrollbarMode="showOnDemand" transparent="1" />
 </screen>
 <!-- AQ112 BackupScreen -->
-<screen name="BackupScreen" position="center,center" size="800,340" title="PE Backup running...">
+<screen name="BackupScreen" position="center,center" size="800,340" title="PE Backup running">
 <widget name="config" position="20,20" size="760,250" transparent="1" scrollbarMode="showOnDemand" />
 </screen>
 <!-- AQ113 BackupSelection ( 3 )-->
-<screen name="BackupSelection" position="center,center" size="950,520" title="PE Select files/folders to backup">
+<screen name="BackupSelection" position="center,center" size="950,520" title="Select files/folders to backup">
 <ePixmap position="50,460" size="250,40" pixmap="FHD5-Eminem/buttons/red25.png" alphatest="on" zPosition="1" />
 <ePixmap position="350,460" size="250,40" pixmap="FHD5-Eminem/buttons/green25.png" alphatest="on" zPosition="1" />
 <ePixmap position="650,460" size="250,40" pixmap="FHD5-Eminem/buttons/yellow25.png" alphatest="on" zPosition="1" />
@@ -3453,7 +3146,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
 <widget name="filelist" position="20,20" size="910,230" scrollbarMode="showOnDemand" transparent="1" />
 </screen>"
   <!--  AQ115 RestoreScreen -->
-<screen name="RestoreScreen" position="center,center" size="800,340" title="PE Restore running...">
+<screen name="RestoreScreen" position="center,center" size="800,340" title="PE Restore running">
 <widget name="config" position="20,20" size="760,250" transparent="1" scrollbarMode="showOnDemand" />
 </screen>
 <!-- AQ116 Network Browser Neighbourhood ( 4 ) -->
@@ -3588,7 +3281,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
 </screen>
 <!-- ##### AR100 SERVICE SEARCHING ##### -->
 <!--  AR101 Nim Selection-Choose Tuner -->
-<screen name="NimSelection" position="center,center" size="900,560" title="PE Choose Tuner">
+<screen name="NimSelection" position="center,center" size="900,560" title="Choose Tuner">
 <widget source="nimlist" render="Listbox" position="20,20" size="860,480" transparent="1">
 <convert type="TemplatedMultiContent">
 				{"template": [
@@ -3619,7 +3312,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
 <widget name="config" position="60,400" size="1160,200" scrollbarMode="showOnDemand" transparent="1" />
 </screen>
 <!-- AR104 select Slot -->
-<screen name="SatNimSelection" position="center,165" size="600,130" title="PE select Slot">
+<screen name="SatNimSelection" position="center,165" size="600,130" title="select Slot">
 <widget name="nimlist" position="20,10" size="560,100" />
 </screen>
 <!-- AR105 Scan Setup -->
@@ -3671,28 +3364,28 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
 <widget source="Frontend" render="Label" position="170,120" zPosition="2" size="280,20" font="Regular;19" halign="center" valign="center" transparent="1">
 <convert type="FrontendInfo">SNRdB</convert>
 </widget>
-<eLabel name="snr" text="PE SNR:" position="80,145" size="60,22" font="Regular;21" halign="right" transparent="1" />
+<eLabel name="snr" text="SNR:" position="80,145" size="60,22" font="Regular;21" halign="right" transparent="1" />
 <widget source="Frontend" render="Progress" position="170,145" size="280,20" pixmap="FHD5-Eminem/bar_snr_finder.png" borderWidth="2" borderColor="un5395c3">
 <convert type="FrontendInfo">SNR</convert>
 </widget>
 <widget source="Frontend" render="Label" position="470,145" size="60,22" font="Regular;21">
 <convert type="FrontendInfo">SNR</convert>
 </widget>
-<eLabel name="agc" text="PE AGC:" position="80,170" size="60,22" font="Regular;21" halign="right" transparent="1" />
+<eLabel name="agc" text="AGC:" position="80,170" size="60,22" font="Regular;21" halign="right" transparent="1" />
 <widget source="Frontend" render="Progress" position="170,170" size="280,20" pixmap="FHD5-Eminem/bar_snr_finder.png" borderWidth="2" borderColor="un5395c3">
 <convert type="FrontendInfo">AGC</convert>
 </widget>
 <widget source="Frontend" render="Label" position="470,170" size="60,22" font="Regular;21">
 <convert type="FrontendInfo">AGC</convert>
 </widget>
-<eLabel name="ber" text="PE BER:" position="80,195" size="60,22" font="Regular;21" halign="right" transparent="1" />
+<eLabel name="ber" text="BER:" position="80,195" size="60,22" font="Regular;21" halign="right" transparent="1" />
 <widget source="Frontend" render="Progress" position="170,195" size="280,20" pixmap="FHD5-Eminem/bar_ber_finder.png" borderWidth="2" borderColor="un5395c3">
 <convert type="FrontendInfo">BER</convert>
 </widget>
 <widget source="Frontend" render="Label" position="470,195" size="60,22" font="Regular;21">
 <convert type="FrontendInfo">BER</convert>
 </widget>
-<eLabel name="lock" text="PE Lock:" position="68,225" size="80,25" font="Regular;21" halign="right" />
+<eLabel name="lock" text="Lock:" position="68,225" size="80,25" font="Regular;21" halign="right" />
 <widget source="Frontend" render="Pixmap" pixmap="FHD5-Eminem/icons/lock_on1.png" position="170,222" zPosition="1" size="32,32" alphatest="blend">
 <convert type="FrontendInfo">LOCK</convert>
 <convert type="ConditionalShowHide" />
@@ -3705,26 +3398,26 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
 <widget name="introduction" position="0,0" size="0,0" font="Regular;22" />
 </screen>
 <!-- AR109 Positioner setup ( 4 )-->
-<screen name="PositionerSetup" position="0,0" size="1280,720" title="PE Positioner setup..." flags="wfNoBorder">
+<screen name="PositionerSetup" position="0,0" size="1280,720" title="PE Positioner setup" flags="wfNoBorder">
 <ePixmap position="0,0" zPosition="-10" size="1280,720" pixmap="FHD5-Eminem/frame_base-fs8.png" />
 <ePixmap position="0,650" zPosition="1" size="1280,40" pixmap="FHD5-Eminem/buttons4.png" alphatest="blend" />
 <ePixmap position="190,500" zPosition="6" size="200,50" pixmap="FHD5-Eminem/b_pos.png" alphatest="blend" transparent="1" />
 <eLabel text="PE Positioner setup... " position="80,30" zPosition="2" size="800,44" font="RegularAA;36" halign="left" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
 <widget name="list" position="60,175" size="1160,155" scrollbarMode="showOnDemand" transparent="1" />
 <widget name="snr_db" position="190,470" size="200,24" halign="center" valign="center" font="Regular;21" backgroundColor="background" transparent="1" />
-<eLabel text="PE SNR:" position="100,500" size="80,24" font="Regular;21" foregroundColor="un5395c3" backgroundColor="darkgrey" transparent="1" />
+<eLabel text="SNR:" position="100,500" size="80,24" font="Regular;21" foregroundColor="un5395c3" backgroundColor="darkgrey" transparent="1" />
 <widget name="snr_bar" position="190,500" size="200,20" borderWidth="1" backgroundColor="darkgrey" transparent="1" />
 <widget name="snr_percentage" position="400,500" size="80,24" font="Regular;21" backgroundColor="darkgrey" transparent="1" />
-<eLabel text="PE BER:" position="100,530" size="80,24" font="Regular;21" foregroundColor="un5395c3" backgroundColor="darkgrey" transparent="1" />
+<eLabel text="BER:" position="100,530" size="80,24" font="Regular;21" foregroundColor="un5395c3" backgroundColor="darkgrey" transparent="1" />
 <widget name="ber_bar" position="190,530" size="200,20" borderWidth="1" backgroundColor="darkgrey" transparent="1" />
 <widget name="ber_value" position="400,530" size="80,24" font="Regular;21" backgroundColor="darkgrey" transparent="1" />
-<eLabel text="PE Lock:" position="100,560" size="80,24" font="Regular;21" foregroundColor="un5395c3" backgroundColor="darkgrey" transparent="1" />
+<eLabel text="Lock:" position="100,560" size="80,24" font="Regular;21" foregroundColor="un5395c3" backgroundColor="darkgrey" transparent="1" />
 <widget name="lock_state" position="190,560" size="200,24" font="Regular;21" backgroundColor="darkgrey" transparent="1" />
-<eLabel text="PE Frequency:" position="510,500" size="150,24" font="Regular;21" foregroundColor="un5395c3" backgroundColor="darkgrey" transparent="1" />
+<eLabel text="Frequency:" position="510,500" size="150,24" font="Regular;21" foregroundColor="un5395c3" backgroundColor="darkgrey" transparent="1" />
 <widget name="frequency_value" position="660,500" size="100,24" font="Regular;21" backgroundColor="darkgrey" transparent="1" />
-<eLabel text="PE Symbolrate:" position="510,530" size="150,24" font="Regular;21" foregroundColor="un5395c3" backgroundColor="darkgrey" transparent="1" />
+<eLabel text="Symbolrate:" position="510,530" size="150,24" font="Regular;21" foregroundColor="un5395c3" backgroundColor="darkgrey" transparent="1" />
 <widget name="symbolrate_value" position="660,530" size="100,24" font="Regular;21" backgroundColor="darkgrey" transparent="1" />
-<eLabel text="PE FEC:" position="510,560" size="150,24" font="Regular;21" foregroundColor="un5395c3" backgroundColor="darkgrey" transparent="1" />
+<eLabel text="FEC:" position="510,560" size="150,24" font="Regular;21" foregroundColor="un5395c3" backgroundColor="darkgrey" transparent="1" />
 <widget name="fec_value" position="660,560" size="100,24" font="Regular;21" backgroundColor="darkgrey" transparent="1" />
 <widget name="red" position="56,650" zPosition="2" size="250,40" font="Regular;24" halign="center" valign="center" backgroundColor="transpBlack" transparent="1" />
 <widget name="green" position="362,650" zPosition="2" size="250,40" font="Regular;24" halign="center" valign="center" backgroundColor="transpBlack" transparent="1" />
@@ -3743,7 +3436,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <widget source="parent.lcdinfo" render="Label" position="0,30" size="120,21" font="LCD;13" halign="center" valign="top" />
   </screen>
     <!-- GP3 -->
-  <screen name="gDesktopHD" position="center,90" size="1100,570" title="PE  ">
+  <screen name="gDesktopHD" position="center,90" size="1100,570" title=" ">
     <widget source="label0" render="Label" position="3,130" size="155,42" font="Regular; 18" zPosition="2" halign="center" valign="top" />
     <widget source="label1" render="Label" position="178,130" size="155,42" font="Regular; 18" zPosition="2" halign="center" valign="top" />
     <widget source="label2" render="Label" position="353,130" size="155,42" font="Regular; 18" zPosition="2" halign="center" valign="top" />
@@ -3813,7 +3506,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
       <convert type="gCWatch">hour,2</convert>
     </widget>
   </screen>
-  <screen name="Config2Button" position="90,90" size="1100,570" title="PE  ">
+  <screen name="Config2Button" position="90,90" size="1100,570" title=" ">
     <widget name="config" position="9,14" size="678,500" scrollbarMode="showOnDemand" />
     <widget name="TextLabel" position="705,14" size="392,70" font="Regular; 20" halign="center" zPosition="2" transparent="1" foregroundColor="white" />
     <eLabel position="0,518" size="1100,2" backgroundColor="transpBlack" />
@@ -3824,7 +3517,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <widget name="ButtonGreen" position="290,525" size="250,38" font="Regular; 22" halign="center" valign="center" foregroundColor="white" backgroundColor="black" zPosition="2" transparent="1" />
     <widget name="PixmapIcon" position="850,158" size="100,100" alphatest="on" />
   </screen>
-  <screen name="Config2Button_SatList" position="90,90" size="1100,570" title="PE  ">
+  <screen name="Config2Button_SatList" position="90,90" size="1100,570" title=" ">
     <widget name="config" position="9,14" size="678,501" scrollbarMode="showOnDemand" />
     <widget name="TextLabel" position="705,14" size="392,70" font="Regular; 20" halign="center" zPosition="2" transparent="1" foregroundColor="white" />
     <eLabel position="0,520" size="1100,2" backgroundColor="transpBlack" />
@@ -3836,7 +3529,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <widget name="PixmapIcon" position="850,158" size="100,100" alphatest="on" />
   </screen>
   <!-- VariableList3Button Start -->
-  <screen name="HotplugScreen" position="center,center" size="490,305" title="PE  ">
+  <screen name="HotplugScreen" position="center,center" size="490,305" title=" ">
     <widget name="PixmapIcon" position="5,15" size="65,65" alphatest="on" />
     <widget name="TextLabel" position="80,5" size="280,140" font="Regular;20" />
     <widget source="menu" render="Listbox" position="5,165" size="480,220" scrollbarMode="showOnDemand" enableWrapAround="on">
@@ -3847,7 +3540,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
 			</convert>
     </widget>
   </screen>
-    <screen name="VariableListNoButton_gMultiQuickButton" position="90,90" size="1100,570" title="PE  ">
+    <screen name="VariableListNoButton_gMultiQuickButton" position="90,90" size="1100,570" title=" ">
     <widget source="menu" render="Listbox" position="9,14" size="678,496" scrollbarMode="showOnDemand" enableWrapAround="on">
       <convert type="TemplatedMultiContent">
 				{ "template": [ MultiContentEntryText(pos=(2, 3), size=(676, 20), flags=RT_VALIGN_CENTER, text=0),
@@ -3860,7 +3553,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <eLabel position="720,102" size="360,2" backgroundColor="foreground" />
     <widget name="PixmapIcon" position="850,158" size="100,100" alphatest="on" />
   </screen>
-    <screen name="VariableList2Lines" position="90,90" size="1100,570" title="PE  ">
+    <screen name="VariableList2Lines" position="90,90" size="1100,570" title=" ">
     <widget source="menu" render="Listbox" position="9,14" size="678,493" scrollbarMode="showOnDemand" enableWrapAround="on">
       <convert type="TemplatedMultiContent">
 				{"template": [
@@ -3886,7 +3579,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <eLabel position="0,520" size="1100,2" backgroundColor="transpBlack" />
     <widget name="PixmapIcon" position="850,158" size="100,100" alphatest="on" />
   </screen>
-    <screen name="VariableListCover" position="90,90" size="1100,570" title="PE  ">
+    <screen name="VariableListCover" position="90,90" size="1100,570" title=" ">
     <widget source="menu" render="Listbox" position="9,14" size="678,500" scrollbarMode="showOnDemand" enableWrapAround="on">
       <convert type="TemplatedMultiContent">
 				{ "template": [ MultiContentEntryText(pos=(105, 3), size=(450, 28), font=0, text=0),
@@ -3913,7 +3606,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <eLabel position="720,102" size="360,2" backgroundColor="transpBlack" />
     <widget name="PixmapIcon" position="850,158" size="100,100" alphatest="on" />
   </screen>
-    <screen name="VariableList4Button_gBrowser" position="90,90" size="1100,570" title="PE  ">
+    <screen name="VariableList4Button_gBrowser" position="90,90" size="1100,570" title=" ">
     <widget source="menu" render="Listbox" position="9,14" size="678,493" scrollbarMode="showOnDemand" enableWrapAround="on">
       <convert type="TemplatedMultiContent">
 				{ "template": [ MultiContentEntryText(pos=(2, 3), size=(680, 20), flags=RT_VALIGN_CENTER, text=0),
@@ -3935,7 +3628,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <widget source="Title" render="Label" position="720,308" size="380,110" font="Regular; 22" halign="left" zPosition="2" transparent="1" foregroundColor="white" backgroundColor="transpBlack" valign="top" />
     <widget name="TextLabel" position="720,418" size="380,98" font="Regular; 22" halign="left" zPosition="2" transparent="1" foregroundColor="white" valign="top" />
   </screen>
-  <screen name="VariableList3Button" position="90,90" size="1100,570" title="PE  ">
+  <screen name="VariableList3Button" position="90,90" size="1100,570" title=" ">
     <widget source="menu" render="Listbox" position="9,14" size="678,477" scrollbarMode="showOnDemand" enableWrapAround="on">
       <convert type="TemplatedMultiContent">
 				{ "template": [ MultiContentEntryText(pos=(1, 0), size=(677, 24), flags=RT_VALIGN_CENTER, text=0),
@@ -3955,7 +3648,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <eLabel position="720,102" size="360,2" backgroundColor="foreground" />
     <widget name="PixmapIcon" position="850,158" size="100,100" alphatest="on" />
   </screen>
-  <screen name="VariableList3Button_geminidreamnetcast" position="90,90" size="1100,570" title="PE  ">
+  <screen name="VariableList3Button_geminidreamnetcast" position="90,90" size="1100,570" title=" ">
     <widget source="menu" render="Listbox" position="9,77" size="790,433" scrollbarMode="showOnDemand" enableWrapAround="on">
       <convert type="TemplatedMultiContent">
 				{ "template": [ MultiContentEntryText(pos=(0, 0), size=(760, 24), flags=RT_VALIGN_CENTER, text=0),
@@ -3983,7 +3676,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
       <convert type="ConditionalShowHide" />
     </widget>
   </screen>
-  <screen name="VariableList3Button_WidgetXmlList" position="90,90" size="1100,570" title="PE  ">
+  <screen name="VariableList3Button_WidgetXmlList" position="90,90" size="1100,570" title=" ">
     <widget source="menu" render="Listbox" position="9,14" size="678,502" scrollbarMode="showOnDemand" enableWrapAround="on">
       <convert type="TemplatedMultiContent">
 				{ "template": [ MultiContentEntryText(pos=(3, 0), size=(675, 23), flags=RT_VALIGN_CENTER, text=0),
@@ -4003,7 +3696,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <eLabel position="0,520" size="1100,2" backgroundColor="foreground" />
     <eLabel position="720,102" size="360,2" backgroundColor="foreground" />
   </screen>
-  <screen name="VariableList3Button_WebCamViewer" position="90,90" size="1100,570" title="PE  ">
+  <screen name="VariableList3Button_WebCamViewer" position="90,90" size="1100,570" title=" ">
     <widget source="menu" render="Listbox" position="9,14" size="678,500" scrollbarMode="showOnDemand" enableWrapAround="on">
       <convert type="TemplatedMultiContent">
 				{ "template": [ MultiContentEntryText(pos=(1, 0), size=(677, 23), flags=RT_VALIGN_CENTER, text=0),
@@ -4023,7 +3716,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <eLabel position="720,102" size="360,2" backgroundColor="foreground" />
     <widget name="PixmapIcon" position="850,158" size="100,100" alphatest="on" />
   </screen>
-  <screen name="VariableList3Button_geminiweather" position="90,90" size="1100,570" title="PE  ">
+  <screen name="VariableList3Button_geminiweather" position="90,90" size="1100,570" title=" ">
     <widget source="menu" render="Listbox" position="9,14" size="678,484" scrollbarMode="showOnDemand" enableWrapAround="on">
       <convert type="TemplatedMultiContent">
 				{ "template": [ MultiContentEntryText(pos=(1, 0), size=(677, 23), flags=RT_VALIGN_CENTER, text=0),
@@ -4043,7 +3736,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <eLabel position="720,102" size="360,2" backgroundColor="foreground" />
     <widget name="PixmapIcon" position="850,158" size="100,100" alphatest="on" />
   </screen>
-  <screen name="PrioListSetup" position="90,90" size="1100,570" title="PE  ">
+  <screen name="PrioListSetup" position="90,90" size="1100,570" title=" ">
     <widget source="menu" render="Listbox" position="9,14" size="678,474" scrollbarMode="showOnDemand" enableWrapAround="on">
       <convert type="TemplatedMultiContent">
 				{ "template": [ MultiContentEntryText(pos=(1, 0), size=(677, 23), flags=RT_VALIGN_CENTER, text=0),
@@ -4063,7 +3756,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <eLabel position="720,102" size="360,2" backgroundColor="foreground" />
     <widget name="PixmapIcon" position="850,158" size="100,100" alphatest="on" />
   </screen>
-  <screen name="VariableList4Button_gBrowser" position="90,90" size="1100,570" title="PE  ">
+  <screen name="VariableList4Button_gBrowser" position="90,90" size="1100,570" title=" ">
     <widget source="menu" render="Listbox" position="9,14" size="678,493" scrollbarMode="showOnDemand" enableWrapAround="on">
       <convert type="TemplatedMultiContent">
 				{ "template": [ MultiContentEntryText(pos=(2, 3), size=(680, 20), flags=RT_VALIGN_CENTER, text=0),
@@ -4085,7 +3778,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <widget source="Title" render="Label" position="720,308" size="380,110" font="Regular; 22" halign="left" zPosition="2" transparent="1" foregroundColor="white" backgroundColor="transpBlack" valign="top" />
     <widget name="TextLabel" position="720,418" size="380,98" font="Regular; 22" halign="left" zPosition="2" transparent="1" foregroundColor="white" valign="top" />
   </screen>
-  <screen name="gBrowserbig" position="center,90" size="1100,570" title="PE  ">
+  <screen name="gBrowserbig" position="center,90" size="1100,570" title=" ">
     <eLabel text="PE GP3 Dateibrowser" position="706,14" size="392,70" font="Regular; 20" halign="center" foregroundColor="white" backgroundColor="black" transparent="1" valign="top" />
     <widget source="menu" render="Listbox" position="9,14" size="695,500" scrollbarMode="showOnDemand" enableWrapAround="on" backgroundColor="transpBlack" transparent="1">
       <convert type="TemplatedMultiContent">
@@ -4113,7 +3806,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <eLabel position="720,102" size="360,2" backgroundColor="foreground" />
     <eLabel position="0,520" size="1100,2" backgroundColor="foreground" />
   </screen>
-  <screen name="VariableList3Button_Automount" position="90,90" size="1100,570" title="PE  ">
+  <screen name="VariableList3Button_Automount" position="90,90" size="1100,570" title=" ">
     <widget source="menu" render="Listbox" position="9,14" size="678,440" scrollbarMode="showOnDemand" enableWrapAround="on">
       <convert type="TemplatedMultiContent">
 				{ "template": [ MultiContentEntryText(pos=(0, 0), size=(678, 22), flags=RT_VALIGN_CENTER, text=0),
@@ -4133,7 +3826,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <eLabel position="720,102" size="360,2" backgroundColor="foreground" />
     <widget name="PixmapIcon" position="850,158" size="100,100" alphatest="on" />
   </screen>
-  <screen name="VariableList3Button_ProcessInfo" position="90,90" size="1100,570" title="PE  ">
+  <screen name="VariableList3Button_ProcessInfo" position="90,90" size="1100,570" title=" ">
     <widget source="menu" render="Listbox" position="9,14" size="678,502" scrollbarMode="showOnDemand" enableWrapAround="on">
       <convert type="TemplatedMultiContent">
 				{ "template": [ MultiContentEntryText(pos=(3, 0), size=(675, 22), flags=RT_VALIGN_CENTER, text=0),
@@ -4153,7 +3846,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <eLabel position="720,102" size="360,2" backgroundColor="foreground" />
     <widget name="PixmapIcon" position="850,158" size="100,100" alphatest="on" />
   </screen>
-  <screen name="VariableList3Button_GeminiConfList" position="90,90" size="1100,570" title="PE  ">
+  <screen name="VariableList3Button_GeminiConfList" position="90,90" size="1100,570" title=" ">
     <widget source="menu" render="Listbox" position="9,14" size="678,502" scrollbarMode="showOnDemand" enableWrapAround="on">
       <convert type="TemplatedMultiContent">
 				{ "template": [ MultiContentEntryText(pos=(3, 0), size=(675, 22), flags=RT_VALIGN_CENTER, text=0),
@@ -4173,7 +3866,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <eLabel position="720,102" size="360,2" backgroundColor="foreground" />
     <widget name="PixmapIcon" position="850,158" size="100,100" alphatest="on" />
   </screen>
-  <screen name="VariableList3Button_DeviceManager" position="90,90" size="1100,570" title="PE  ">
+  <screen name="VariableList3Button_DeviceManager" position="90,90" size="1100,570" title=" ">
     <widget source="menu" render="Listbox" position="9,14" size="678,440" scrollbarMode="showOnDemand" enableWrapAround="on">
       <convert type="TemplatedMultiContent">
 				{ "template": [ MultiContentEntryText(pos=(3, 0), size=(675, 22), flags=RT_VALIGN_CENTER, text=0),
@@ -4193,7 +3886,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <eLabel position="720,102" size="360,2" backgroundColor="foreground" />
     <widget name="PixmapIcon" position="850,158" size="100,100" alphatest="on" />
   </screen>
-  <screen name="VariableList3Button_PartitionsManager" position="90,90" size="1100,570" title="PE  ">
+  <screen name="VariableList3Button_PartitionsManager" position="90,90" size="1100,570" title=" ">
     <widget source="menu" render="Listbox" position="9,14" size="678,440" scrollbarMode="showOnDemand" enableWrapAround="on">
       <convert type="TemplatedMultiContent">
 				{ "template": [ MultiContentEntryText(pos=(3, 0), size=(675, 22), flags=RT_VALIGN_CENTER, text=0),
@@ -4213,7 +3906,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <eLabel position="720,102" size="360,2" backgroundColor="foreground" />
     <widget name="PixmapIcon" position="850,158" size="100,100" alphatest="on" />
   </screen>
-  <screen name="VariableList3Button_Satconfig" position="90,90" size="1100,570" title="PE  ">
+  <screen name="VariableList3Button_Satconfig" position="90,90" size="1100,570" title=" ">
     <widget source="menu" render="Listbox" position="9,14" size="678,440" scrollbarMode="showOnDemand" enableWrapAround="on">
       <convert type="TemplatedMultiContent">
 				{ "template": [ MultiContentEntryText(pos=(0, 0), size=(678, 30), flags=RT_VALIGN_CENTER, text=0),
