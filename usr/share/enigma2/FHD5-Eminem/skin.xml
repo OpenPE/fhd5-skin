@@ -71,8 +71,8 @@ BH178 Default HD - Copyright (C) 2012 GPL-III by BlackHole
   <fonts>
     <font filename="DejaVuSans.ttf" name="Regular" scale="95" />
     <font filename="DejaVuSans.ttf" name="RegularAA" scale="100" />
-    <font filename="DejaVuSans.ttf" name="LCD" scale="100" />
-    <font filename="DejaVuSans.ttf" name="OLED" scale="100" />
+    <font filename="digital.ttf" name="LCD" scale="100" />
+    <font filename="goodtime.ttf" name="OLED" scale="100" />
     <font filename="DejaVuSans.ttf" name="Console" scale="100" />
     <font filename="DejaVuSans.ttf" name="Replacement" scale="90" replacement="1" />
     <font filename="DejaVuSans.ttf" name="Display" scale="100" />
@@ -1325,7 +1325,7 @@ BH178 Default HD - Copyright (C) 2012 GPL-III by BlackHole
 	<ePixmap position="882,40" zPosition="2" size="74,36" pixmap="FHD5-Eminem/buttons/key_menu1.png" transparent="1" alphatest="on" />
 	<ePixmap position="982,40" zPosition="2" size="74,36" pixmap="FHD5-Eminem/buttons/key_epg.png" transparent="1" alphatest="on" />
 	<ePixmap position="1082,40" zPosition="2" size="74,36" pixmap="FHD5-Eminem/buttons/key_exit.png" transparent="1" alphatest="on" />
-	<ePixmap position="985,108" size="127,81" pixmap="FHD5-Eminem/frame_picons.png" zPosition="2" alphatest="on" transparent="0" />
+	<ePixmap position="985,108" size="126,82" pixmap="FHD5-Eminem/frame_picons.png" zPosition="2" alphatest="on" transparent="0" />
 	<widget source="ServiceEvent" render="Picon2" position="998,119" size="100,60" zPosition="3" transparent="1" alphatest="blend" />
         <widget source="ServiceEvent" render="Label" position="860,425" size="350,26" zPosition="2" halign="center" font="Regular;20" foregroundColor="grey" backgroundColor="transpBlack" transparent="1" noWrap="1">
             <convert type="EventName">NextName</convert>
