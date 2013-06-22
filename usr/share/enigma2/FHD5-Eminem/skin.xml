@@ -2051,7 +2051,7 @@ BH178 Default HD - Copyright (C) 2012 GPL-III by BlackHole
 <!-- AM111 Network Wizard -->
 <screen name="NetworkWizard" position="0,0" size="1280,720" title="PE Welcome" flags="wfNoBorder">
 <ePixmap position="0,0" zPosition="-1" size="1280,720" pixmap="FHD5-Eminem/frame_base-fs8.png" />
-<eLabel text="PE Welcome...Net" position="80,30" size="800,44" font="RegularAA;36" halign="left" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
+<eLabel text="PE Welcome - Net" position="80,30" size="800,44" font="RegularAA;36" halign="left" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
 <widget name="wizard" pixmap="FHD5-Eminem/wizard.png" position="60,120" zPosition="10" size="140,188" transparent="1" alphatest="on" />
 <widget name="text" position="300,150" size="340,330" font="Regular;22" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
 <ePixmap pixmap="FHD5-Eminem/buttons/button_red.png" position="300,120" size="15,16" alphatest="on" />
@@ -2210,7 +2210,7 @@ BH178 Default HD - Copyright (C) 2012 GPL-III by BlackHole
 <ePixmap pixmap="FHD5-Eminem/frame_base-fs8.png" position="0,0" zPosition="-3" size="1280,720" />
 <ePixmap position="890,240" zPosition="-1" size="300,14" pixmap="FHD5-Eminem/chan_p1_bar.png" alphatest="on" />
 <ePixmap position="808,118" zPosition="6" size="22,380" pixmap="FHD5-Eminem/scroll.png" alphatest="blend" transparent="1" />
-<eLabel text="Recorded filess... /hdd/movie" position="80,30" zPosition="2" size="800,44" font="RegularAA;36" halign="left" transparent="1" foregroundColor="un5395c3" backgroundColor="transpBlack" />
+<eLabel text="Recorded files /hdd/movie" position="80,30" zPosition="2" size="800,44" font="RegularAA;36" halign="left" transparent="1" foregroundColor="un5395c3" backgroundColor="transpBlack" />
 <widget name="waitingtext" position="80,400" size="760,30" zPosition="4" font="Regular;22" halign="center" valign="center" transparent="1" />
 <widget name="list" position="70,120" size="760,375" scrollbarMode="showOnDemand" transparent="1" />
 <widget name="freeDiskSpace" position="80,560" zPosition="4" size="760,25" font="Regular;22" halign="left" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
@@ -2734,7 +2734,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
 <!-- AP129 Start Wizard -->
 <screen name="StartWizard" position="0,0" size="1280,720" title="PE Welcome" flags="wfNoBorder">
 <ePixmap position="0,0" zPosition="-1" size="1280,720" pixmap="FHD5-Eminem/frame_base-fs8.png" />
-<eLabel text="PE Welcome...Start" position="80,30" size="800,44" font="RegularAA;36" halign="left" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
+<eLabel text="PE Welcome - Start" position="80,30" size="800,44" font="RegularAA;36" halign="left" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
 <widget name="wizard" pixmap="FHD5-Eminem/wizard.png" position="80,120" zPosition="10" size="140,188" transparent="1" alphatest="on" />
 <widget name="text" position="320,150" size="340,330" font="Regular;22" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
 <ePixmap pixmap="FHD5-Eminem/buttons/button_red.png" position="320,120" size="15,16" alphatest="on" />
@@ -3109,9 +3109,9 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
 <widget source="introduction" render="Label" position="50,420" zPosition="10" size="500,30" halign="center" valign="center" font="Regular;22" transparent="1" shadowColor="black" shadowOffset="-1,-1" />
 </screen>
 <!-- AQ111 Restore backups Wizard SM -->
-<screen name="ImageWizard" position="0,0" size="1280,720" title="PE Welcome...SM" flags="wfNoBorder">
+<screen name="ImageWizard" position="0,0" size="1280,720" title="PE Welcome - SM" flags="wfNoBorder">
 <ePixmap position="0,0" zPosition="-1" size="1280,720" pixmap="FHD5-Eminem/frame_base-fs8.png" />
-<eLabel text="PE Welcome...SM" position="80,30" size="800,44" font="RegularAA;36" halign="left" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
+<eLabel text="PE Welcome - SM" position="80,30" size="800,44" font="RegularAA;36" halign="left" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
 <widget name="wizard" pixmap="FHD5-Eminem/wizard.png" position="80,120" zPosition="10" size="140,188" transparent="1" alphatest="on" />
 <widget name="text" position="320,150" size="340,330" font="Regular;22" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
 <ePixmap pixmap="FHD5-Eminem/buttons/button_red.png" position="320,120" size="15,16" alphatest="on" />
@@ -3402,7 +3402,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
 <ePixmap position="0,0" zPosition="-10" size="1280,720" pixmap="FHD5-Eminem/frame_base-fs8.png" />
 <ePixmap position="0,650" zPosition="1" size="1280,40" pixmap="FHD5-Eminem/buttons4.png" alphatest="blend" />
 <ePixmap position="190,500" zPosition="6" size="200,50" pixmap="FHD5-Eminem/b_pos.png" alphatest="blend" transparent="1" />
-<eLabel text="PE Positioner setup... " position="80,30" zPosition="2" size="800,44" font="RegularAA;36" halign="left" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
+<eLabel text="PE Positioner setup" position="80,30" zPosition="2" size="800,44" font="RegularAA;36" halign="left" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
 <widget name="list" position="60,175" size="1160,155" scrollbarMode="showOnDemand" transparent="1" />
 <widget name="snr_db" position="190,470" size="200,24" halign="center" valign="center" font="Regular;21" backgroundColor="background" transparent="1" />
 <eLabel text="SNR:" position="100,500" size="80,24" font="Regular;21" foregroundColor="un5395c3" backgroundColor="darkgrey" transparent="1" />
