@@ -928,7 +928,7 @@ BH178 Default HD - Copyright (C) 2012 GPL-III by BlackHole
   <!-- AF102 Menu Information -->
   <screen name="menu_information" position="0,0" size="1280,720" title="PE Main menu" flags="wfNoBorder">
     <ePixmap position="0,0" zPosition="-1" size="1280,720" pixmap="FHD5-Eminem/frame_base-fs8.png" />
-    <eLabel text="PE Menu Information" position="80,30" size="800,44" font="RegularAA;36" halign="left" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
+    <eLabel text="PE Information" position="80,30" size="800,44" font="RegularAA;36" halign="left" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
     <widget source="menu" render="Listbox" position="60,120" size="760,440" scrollbarMode="showNever" selectionPixmap="FHD5-Eminem/icons/listselection450x38_S1-fs8.png" backgroundPixmap="FHD5-Eminem/icons/butselection.png" transparent="1">
       <convert type="TemplatedMultiContent">
 			{"template": [ MultiContentEntryText(pos = (60, 2), size = (450, 38), flags = RT_HALIGN_LEFT, text = 0) ],
@@ -941,7 +941,7 @@ BH178 Default HD - Copyright (C) 2012 GPL-III by BlackHole
   <!-- AF103 Menu Setup -->
   <screen name="menu_setup" position="0,0" size="1280,720" title="PE Main menu" flags="wfNoBorder">
     <ePixmap position="0,0" zPosition="-1" size="1280,720" pixmap="FHD5-Eminem/frame_base-fs8.png" />
-    <eLabel text="PE Menu Setup" position="80,30" size="800,44" font="RegularAA;36" halign="left" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
+    <eLabel text="PE Setup" position="80,30" size="800,44" font="RegularAA;36" halign="left" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
     <widget source="menu" render="Listbox" position="60,120" size="760,440" scrollbarMode="showNever" selectionPixmap="FHD5-Eminem/icons/listselection450x38_S1-fs8.png" backgroundPixmap="FHD5-Eminem/icons/butselection.png" transparent="1">
       <convert type="TemplatedMultiContent">
 			{"template": [ MultiContentEntryText(pos = (60,2), size = (450, 38), flags = RT_HALIGN_LEFT, text = 0) ],
@@ -954,7 +954,7 @@ BH178 Default HD - Copyright (C) 2012 GPL-III by BlackHole
   <!-- AF104 Menu Scan -->
   <screen name="menu_scan" position="0,0" size="1280,720" title="PE Main menu" flags="wfNoBorder">
     <ePixmap position="0,0" zPosition="-1" size="1280,720" pixmap="FHD5-Eminem/frame_base-fs8.png" />
-    <eLabel text="PE Menu Scan" position="80,30" size="800,44" font="RegularAA;36" halign="left" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
+    <eLabel text="PE Scan" position="80,30" size="800,44" font="RegularAA;36" halign="left" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
     <widget source="menu" render="Listbox" position="60,120" size="760,440" scrollbarMode="showNever" selectionPixmap="FHD5-Eminem/icons/listselection450x38_S1-fs8.png" backgroundPixmap="FHD5-Eminem/icons/butselection.png" transparent="1">
       <convert type="TemplatedMultiContent">
 			{"template": [ MultiContentEntryText(pos = (60, 2), size = (450, 38), flags = RT_HALIGN_LEFT, text = 0) ],
@@ -968,7 +968,7 @@ BH178 Default HD - Copyright (C) 2012 GPL-III by BlackHole
   <screen name="menu_system" position="0,0" size="1280,720" title="PE Main menu" flags="wfNoBorder">
     <ePixmap position="0,0" zPosition="-1" size="1280,720" pixmap="FHD5-Eminem/frame_base-fs8.png" />
     <ePixmap position="1198,118" zPosition="2" size="22,458" pixmap="FHD5-Eminem/scroll.png" alphatest="blend" transparent="1" />
-    <eLabel text="PE Menu System" position="80,30" size="800,44" font="RegularAA;36" halign="left" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
+    <eLabel text="PE System" position="80,30" size="800,44" font="RegularAA;36" halign="left" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
     <widget source="menu" render="Listbox" position="60,120" size="1160,456" scrollbarMode="showOnDemand" selectionPixmap="FHD5-Eminem/icons/listselection450x38_S1-fs8.png" backgroundPixmap="FHD5-Eminem/icons/butselection.png" transparent="1">
       <convert type="TemplatedMultiContent">
 			{"template": [ MultiContentEntryText(pos = (60, 2), size = (450, 38), flags = RT_HALIGN_LEFT, text = 0) ],
@@ -981,7 +981,7 @@ BH178 Default HD - Copyright (C) 2012 GPL-III by BlackHole
   <!-- AF106 Menu HDD -->
   <screen name="menu_harddisk" position="0,0" size="1280,720" title="PE Main menu" flags="wfNoBorder">
     <ePixmap position="0,0" zPosition="-1" size="1280,720" pixmap="FHD5-Eminem/frame_base-fs8.png" />
-    <eLabel text="PE Menu HDD" position="80,30" size="800,44" font="RegularAA;36" halign="left" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
+    <eLabel text="PE HDD" position="80,30" size="800,44" font="RegularAA;36" halign="left" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
     <widget source="menu" render="Listbox" position="60,120" size="760,440" scrollbarMode="showNever" selectionPixmap="FHD5-Eminem/icons/listselection450x38_S1-fs8.png" backgroundPixmap="FHD5-Eminem/icons/butselection.png" transparent="1">
       <convert type="TemplatedMultiContent">
 			{"template": [ MultiContentEntryText(pos = (60, 2), size = (450, 38), flags = RT_HALIGN_LEFT, text = 0) ],
@@ -994,7 +994,7 @@ BH178 Default HD - Copyright (C) 2012 GPL-III by BlackHole
   <!-- AF107 Menu Shutdown -->
   <screen name="menu_shutdown" position="0,0" size="1280,720" title="PE Main menu" flags="wfNoBorder">
     <ePixmap position="0,0" zPosition="-1" size="1280,720" pixmap="FHD5-Eminem/frame_base-fs8.png" />
-    <eLabel text="PE Menu Shutdown" position="80,30" size="800,44" font="RegularAA;40" halign="left" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
+    <eLabel text="PE Shutdown" position="80,30" size="800,44" font="RegularAA;40" halign="left" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
     <widget source="menu" render="Listbox" position="60,120" size="760,440" scrollbarMode="showNever" selectionPixmap="FHD5-Eminem/icons/listselection450x38_S1-fs8.png" backgroundPixmap="FHD5-Eminem/icons/butselection.png" transparent="1">
       <convert type="TemplatedMultiContent">
 			{"template": [ MultiContentEntryText(pos = (60, 2), size = (450, 38), flags = RT_HALIGN_LEFT, text = 0) ],
@@ -1123,10 +1123,10 @@ BH178 Default HD - Copyright (C) 2012 GPL-III by BlackHole
       <convert type="TemplatedMultiContent">
 				{"template": [
 						MultiContentEntryText(pos = (150, 10), size = (670, 30), flags = RT_HALIGN_LEFT, text = 1), # index 1 is the language name,
-					    MultiContentEntryPixmapAlphaTest(pos = (30, 5), size = (60, 40), png = 2), # index 2 is the pixmap
+					    MultiContentEntryPixmapAlphaTest(pos = (30, 5), size = (64, 64), png = 2), # index 2 is the pixmap
 					],
 				 "fonts": [gFont("Regular", 25)],
-				 "itemHeight": 50
+				 "itemHeight": 74
 				}
 			</convert>
     </widget>
@@ -1793,10 +1793,10 @@ BH178 Default HD - Copyright (C) 2012 GPL-III by BlackHole
 <widget position="515,650" size="250,40" name="key_red" font="Regular;24" halign="center" valign="center" backgroundColor="transpBlack" transparent="1" zPosition="3" />
 </screen>
 <!--AL119 CrossEPG_Menu -->
-<screen name="CrossEPG_Menu" position="0,0" size="1280,720" title="PE CrossEPG Menu" flags="wfNoBorder">
+<screen name="CrossEPG_Menu" position="0,0" size="1280,720" title="PE CrossEPG" flags="wfNoBorder">
 <ePixmap position="0,0" zPosition="-1" size="1280,720" pixmap="FHD5-Eminem/frame_base-fs8.png" />
 <ePixmap position="1198,118" zPosition="2" size="22,482" pixmap="FHD5-Eminem/scroll.png" alphatest="blend" transparent="1" />
-<eLabel text="PE CrossEPG Menu" position="60,30" zPosition="2" size="800,44" font="RegularAA;36" halign="left" transparent="1" foregroundColor="un5395c3" backgroundColor="transpBlack" />
+<eLabel text="PE CrossEPG" position="60,30" zPosition="2" size="800,44" font="RegularAA;36" halign="left" transparent="1" foregroundColor="un5395c3" backgroundColor="transpBlack" />
 <widget source="list" render="Listbox" position="60,120" size="1160,480" scrollbarMode="showOnDemand" transparent="1">
 <convert type="TemplatedMultiContent">
 			{"template": [
@@ -1997,9 +1997,9 @@ BH178 Default HD - Copyright (C) 2012 GPL-III by BlackHole
 <widget source="key_green" render="Label" position="770,650" size="250,40" zPosition="1" font="Regular;24" halign="center" valign="center" backgroundColor="transpBlack" transparent="1" />
 </screen>
 <!-- AM107 WlanSetup ( 2 )-->
-<screen name="WlanSetup" position="0,0" size="1280,720" title="PE Wireless Network Setup Menu" flags="wfNoBorder">
+<screen name="WlanSetup" position="0,0" size="1280,720" title="PE Wireless Setup" flags="wfNoBorder">
 <ePixmap position="0,0" zPosition="-1" size="1280,720" pixmap="FHD5-Eminem/frame_base-fs8.png" />
-<eLabel text="PE Wireless Net Setup Menu" position="80,30" size="800,44" font="RegularAA;36" halign="left" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
+<eLabel text="PE Wireless Setup" position="80,30" size="800,44" font="RegularAA;36" halign="left" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
 <widget name="menulist" position="60,120" size="1160,150" zPosition="2" enableWrapAround="1" scrollbarMode="showOnDemand" transparent="1" />
 <widget source="description" render="Label" position="370,520" size="540,50" font="Regular;20" halign="center" foregroundColor="un5395c3" backgroundColor="transpBlack" transparent="1" />
 <ePixmap pixmap="FHD5-Eminem/buttons/red25.png" position="260,650" size="250,40" alphatest="blend" />
@@ -2666,10 +2666,10 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
 <convert type="TemplatedMultiContent">
 				{"template": [
 						MultiContentEntryText(pos = (80, 10), size = (200, 50), flags = RT_HALIGN_LEFT, text = 1), # index 1 is the language name,
-						MultiContentEntryPixmap(pos = (10, 5), size = (60, 40), png = 2), # index 2 is the pixmap
+						MultiContentEntryPixmap(pos = (10, 5), size = (64, 64), png = 2), # index 2 is the pixmap
 					],
 				 "fonts": [gFont("Regular", 20)],
-				 "itemHeight": 50
+				 "itemHeight": 74
 				}
 			</convert>
 </widget>
