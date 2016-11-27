@@ -1,11 +1,11 @@
-FHD5 Skin By Naser (Eminem) - Based On BH178 Default HD By Army
+FHD5 skin by Naser (Eminem) - Based on BH178 Default HD by Army
 =========
 
-Persian Professionals Official Website :
+Persian Professionals official website :
 
 https://pe4k.com
 
-Black Hole Official Website :
+Black Hole official website :
 
 http://www.vuplus-community.net
 
